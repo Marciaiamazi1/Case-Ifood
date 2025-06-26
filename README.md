@@ -1,22 +1,30 @@
 
-# iFood A/B Test – Case Técnico (Data Analyst)
+---
 
-Este repositório contém a análise de um teste A/B sobre uma campanha de cupons no iFood.
+## 🚀 Como Executar
 
-## Estrutura
-- `notebooks/`: notebooks com análise, testes estatísticos e segmentações
-- `apresentacao/`: relatório final em PDF
-- `data/`: dados utilizados
+1. Acesse os notebooks em `notebooks/` e abra no Google Colab
+2. Rode célula por célula para reproduzir os resultados
+3. Você pode baixar os dados diretamente das URLs no próprio notebook
 
-## Como executar
-1. Abra os notebooks com Google Colab.
-2. Rode célula por célula para replicar a análise.
+---
 
-## Bibliotecas
+## 📦 Bibliotecas Utilizadas
+
+- Python 3.9+
 - pandas
 - numpy
-- matplotlib / seaborn
-- scipy / statsmodels
+- seaborn
+- matplotlib
+- scipy
+- statsmodels
+- scikit-learn (opcional para segmentação)
+
+Para instalar localmente:
+
+```bash
+pip install -r requirements.txt
+
 
 
 
