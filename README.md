@@ -41,18 +41,8 @@
 
 
 
-## 👩‍💻 Sobre Mim
-
-Este projeto foi realizado por **Paula Iamaz** como parte do processo seletivo para a vaga de **Data Analyst no iFood**.  
-Entre em contato: [LinkedIn](https://www.linkedin.com/) (inserir seu link)
-
----
-
-## 📬 Contato
-
-Fique à vontade para abrir uma _issue_ ou entrar em contato para dúvidas ou feedback.
 
 
 
----
+
 
