@@ -3,7 +3,6 @@
 
 ## 💾 Dados Utilizados
 
-Os dados foram disponibilizados via links públicos pelo iFood. Como não é permitido subir arquivos grandes no GitHub, eles devem ser baixados manualmente:
 
 | Dataset       | Descrição                                     | Link |
 |---------------|-----------------------------------------------|------|
@@ -12,7 +11,7 @@ Os dados foram disponibilizados via links públicos pelo iFood. Como não é per
 | restaurant.csv.gz | Dados dos restaurantes                    | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz) |
 | ab_test_ref.tar.gz | Marcação dos grupos "controle" e "target" | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz) |
 
----
+
 
 ## ⚙️ Como Executar
 
@@ -23,14 +22,14 @@ Os dados foram disponibilizados via links públicos pelo iFood. Como não é per
    - Analisar o teste A/B
    - Gerar insights e conclusões
 
----
+
 
 ## 📈 Entregáveis
 
 - 📒 Notebooks com análise exploratória e estatística
 - 📎 Relatório final com conclusões e recomendações para o negócio (`reports/relatorio_ifood.pdf`)
 
----
+
 
 ## 🧠 Habilidades Demonstradas
 
@@ -40,7 +39,7 @@ Os dados foram disponibilizados via links públicos pelo iFood. Como não é per
 - Visualização de dados e comunicação de resultados
 - Organização de repositório no GitHub
 
----
+
 
 ## 👩‍💻 Sobre Mim
 
