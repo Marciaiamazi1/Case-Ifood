@@ -1,6 +1,6 @@
 # 📊 iFood Data Analytics Case
 
-Este repositório contém a solução do case técnico O desafio consistiu em analisar os resultados de um teste A/B com cupons promocionais, avaliar seu impacto na retenção de usuários e propor estratégias baseadas nos dados.
+Este case consistiu em analisar os resultados de um teste A/B com cupons promocionais, avaliar seu impacto na retenção de usuários e propor estratégias baseadas nos dados.
 
 
 
@@ -10,7 +10,6 @@ Este repositório contém a solução do case técnico O desafio consistiu em an
 - Avaliar a viabilidade financeira da estratégia.
 - Criar segmentações relevantes para o público-alvo do teste.
 - Apresentar recomendações acionáveis baseadas nos insights obtidos.
-
 
 
 ## 🧰 Tecnologias Utilizadas
@@ -23,9 +22,10 @@ Este repositório contém a solução do case técnico O desafio consistiu em an
 - GitHub (versionamento)
 - PDF (para relatório final)
 
----
 
 ## 📁 Estrutura do Repositório
+
+
 
 ├── notebooks/ │ 
         ├── 01_exploracao_dados.ipynb │ 
