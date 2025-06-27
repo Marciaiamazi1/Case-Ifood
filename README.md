@@ -27,7 +27,9 @@ Este case consistiu em analisar os resultados de um teste A/B com cupons promoci
 
 
 ifood-data-analytics-case/
-│
+
+
+
 ├── notebooks/
 │   ├── 01_exploracao_dados.ipynb     
 │   ├── 02_analise_ab_test.ipynb        
