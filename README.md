@@ -26,19 +26,27 @@ Este case consistiu em analisar os resultados de um teste A/B com cupons promoci
 ## 📁 Estrutura do Repositório
 
 
+ifood-data-analytics-case/
+│
+├── notebooks/
+│   ├── 01_exploracao_dados.ipynb     
+│   ├── 02_analise_ab_test.ipynb        
+│   └── 03_segmentacao_usuarios.ipynb  
+│
+├── data/
+│   ├── raw/                           
+│   └── processed/                     
+│
+├── images/                   
+│
+├── report/
+│   └── apresentacao_final.pdf       
+│
+├── README.md                          
+├── requirements.txt                    
+└── .gitignore  
 
-├── notebooks/ │ 
-        ├── 01_exploracao_dados.ipynb │ 
-        ├── 02_analise_ab_test.ipynb │ 
-        └── 03_segmentacao_usuarios.ipynb
-├── data/ │ 
-        ├── raw/ # Dados brutos │ 
-└── processed/ # Dados tratados
-├── images/ # Gráficos e figuras 
-├── report/ │ 
-└── apresentacao_final.pdf 
-├── requirements.txt 
-└── README.md
+
 
 
 ## 🚀 Como Executar
