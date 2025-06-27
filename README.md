@@ -52,6 +52,7 @@ ifood-data-analytics-case/
 
 
 ## 🚀 Como Executar
+
 1. Clone o repositório:
    
 git clone https://github.com/seu-usuario/ifood-data-analytics-case.git
