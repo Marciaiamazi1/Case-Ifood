@@ -45,11 +45,9 @@ ifood-data-analytics-case/
 ├── README.md                          
 
 
-
 1- Clone o repositório:
 git clone https://github.com/seu-usuario/ifood-data-analytics-case.git
 
-
 2-Instale as dependências:
 pip install -r requirements.txt
 
@@ -57,9 +55,3 @@ pip install -r requirements.txt
 
 4-Baixe os dados dos links disponibilizados no próprio notebook de exploração.
 
-2-Instale as dependências:
-pip install -r requirements.txt
-
-3-Acesse os notebooks na pasta notebooks/ pelo Google Colab ou Jupyter.
-
-4-Baixe os dados dos links disponibilizados no próprio notebook de exploração.
