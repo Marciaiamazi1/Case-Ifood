@@ -77,19 +77,4 @@ pip install -r requirements.txt
 
 
 
-📊 Resultados e Conclusões
-O grupo teste apresentou uma taxa de retenção superior ao grupo controle.
-
-A diferença foi estatisticamente significativa (teste t para duas amostras independentes).
-
-A ação de cupons se mostrou viável financeiramente sob determinadas premissas.
-
-Segmentações demonstraram comportamentos distintos entre perfis de usuários, com diferentes níveis de engajamento.
-
-📌 Recomendações Estratégicas
-Investir em campanhas personalizadas por segmento.
-
-Ajustar valor ou condições do cupom conforme perfil do usuário.
-
-Replicar o teste com variações (ex: valor do cupom, tempo de expiração).
 
