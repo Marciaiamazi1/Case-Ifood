@@ -28,34 +28,34 @@ Este case consistiu em analisar os resultados de um teste A/B com cupons promoci
 
 ifood-data-analytics-case/
 
-
-
 ├── notebooks/
 │   ├── 01_exploracao_dados.ipynb     
 │   ├── 02_analise_ab_test.ipynb        
 │   └── 03_segmentacao_usuarios.ipynb  
 │
 ├── data/
-│   ├── raw/                           
-│   └── processed/                     
+                  
 │
 ├── images/                   
 │
 ├── report/
-│   └── apresentacao_final.pdf       
+│  
+└── apresentacao_final.pdf       
 │
 ├── README.md                          
-├── requirements.txt                    
-└── .gitignore  
 
 
 
-## 🚀 Como Executar
-
-1. Clone o repositório:
-```bash
+1- Clone o repositório:
 git clone https://github.com/seu-usuario/ifood-data-analytics-case.git
 
+
+2-Instale as dependências:
+pip install -r requirements.txt
+
+3-Acesse os notebooks na pasta notebooks/ pelo Google Colab ou Jupyter.
+
+4-Baixe os dados dos links disponibilizados no próprio notebook de exploração.
 
 2-Instale as dependências:
 pip install -r requirements.txt
