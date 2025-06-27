@@ -1,7 +1,4 @@
 
-
-Este diretório contém os arquivos de dados utilizados nos notebooks deste projeto.
-
 Os dados não estão armazenados localmente no repositório, mas podem ser baixados diretamente dos links abaixo:
 
 | Nome do Arquivo       | Descrição      | Link de Download |
@@ -10,5 +7,3 @@ Os dados não estão armazenados localmente no repositório, mas podem ser baixa
 | `consumer.csv.gz`      | Usuários       | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz) |
 | `restaurant.csv.gz`    | Restaurantes   | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz) |
 | `ab_test_ref.tar.gz`   | Grupos A/B     | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz) |
-
-> 💡 Os notebooks estão preparados para acessar esses arquivos diretamente por URL.
