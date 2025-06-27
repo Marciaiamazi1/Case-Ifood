@@ -53,8 +53,6 @@ ifood-data-analytics-case/
 
 ## 🚀 Como Executar
 
-1. Clone o repositório:
-```bash
 git clone https://github.com/seu-usuario/ifood-data-analytics-case.git
 
 2-Instale as dependências:
