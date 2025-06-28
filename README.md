@@ -60,7 +60,7 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 
 3.Acesse os notebooks:
 
-- Navegue até a pasta notebooks
+- Navegue até a pasta notebook
 
 - Recomendado: abrir com Google Colab ou Jupyter Notebook
 
