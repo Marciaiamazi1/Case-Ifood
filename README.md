@@ -40,6 +40,8 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 
 ├── reports
 
+---
+
 - Na pasta data estão os dados utilizados no projeto. 
 - Na pasta notebooksestão os cadernos com o desenvolvimento do projeto.
 - Na pasta reports está o relatório gerado no projeto.
