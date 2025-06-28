@@ -1,14 +1,15 @@
-# 📌 Importando bibliotecas
+
+# Importando bibliotecas
 import pandas as pd
 import numpy as np
 
-# ✅ Lendo os datasets
+#  Lendo os datasets
 orders = pd.read_json('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz', lines=True)
 consumers = pd.read_csv('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz')
 restaurants = pd.read_csv('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz')
 ab_ref = pd.read_csv('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab%20test%20ref.tar.gz', compression='tar')
 
-# 🔍 Verificando formatos
+# Verificando formatos
 orders.info()
 consumers.info()
 ab_ref['is_target'].value_counts()
