@@ -38,23 +38,18 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 ## 🚀 Como Executar o Projeto
 
 🚀 Como Executar o Projeto
-Clone este repositório:
-
-bash
+1.Clone este repositório:
 git clone https://github.com/seu-usuario/ifood-data-analytics-case.git
-Instale as dependências:
 
-bash
+2.Instale as dependências:
 pip install -r requisitos.txt
-Acesse os notebooks:
 
-Navegue até a pasta cadernos/
+3.Acesse os notebooks:
+-Navegue até a pasta cadernos/
+-Recomendado: abrir com Google Colab ou Jupyter Notebook
 
-Recomendado: abrir com Google Colab ou Jupyter Notebook
-
-Baixe os dados:
-
+4.Baixe os dados:
 Os links para download dos datasets estão disponíveis no início do notebook 01_exploracao_dados.ipynb.
 
 📝 Relatório Final
-O arquivo relatorio_final.pdf está localizado na pasta relatorio/. Ele apresenta os principais insights, conclusões e recomendações do projeto de forma objetiva e acessível, especialmente preparado para lideranças não técnicas.
+O arquivo relatorio_final.pdf apresenta os principais insights, conclusões e recomendações do projeto .
