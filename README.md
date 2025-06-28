@@ -15,7 +15,6 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 - Criar segmentações relevantes para o público-alvo do teste.
 - Apresentar recomendações práticas e acionáveis baseadas nos dados.
 
----
 
 ## 🧰 Tecnologias Utilizadas
 
@@ -27,7 +26,6 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 - GitHub (versionamento)  
 - PDF (para relatório final)
 
----
 
 ## 📁 Estrutura do Repositório
 
@@ -45,7 +43,6 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 - Na pasta notebooksestão os cadernos com o desenvolvimento do projeto.
 - Na pasta reports está o relatório gerado no projeto.
 
----
 
 ## 🚀 Como Executar o Projeto
 
@@ -68,7 +65,6 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 4.Baixe os dados:
 - Os links para download dos datasets estão disponíveis no início do notebook 01_exploracao_dados.ipynb.
 
----
 
 📝 Relatório Final
 O relatorio apresenta os principais insights, conclusões e recomendações do projeto .
