@@ -31,9 +31,13 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 ## 📁 Estrutura do Repositório
 
 ├── case
+
 ├── data
+
 ├── images
+
 ├── notebooks
+
 ├── reports
 
 - Na pasta data estão os dados utilizados no projeto. 
