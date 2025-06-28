@@ -1,15 +1,58 @@
+# 📍 ETL e Pré-processamento dos Dados do Case iFood
 
-# Importando bibliotecas
+## 1. Bibliotecas
 import pandas as pd
 import numpy as np
+import json
+import gzip
+import tarfile
+import os
 
-#  Lendo os datasets
-orders = pd.read_json('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz', lines=True)
-consumers = pd.read_csv('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz')
-restaurants = pd.read_csv('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz')
-ab_ref = pd.read_csv('https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab%20test%20ref.tar.gz', compression='tar')
+## 2. Carregando os dados
 
-# Verificando formatos
-orders.info()
-consumers.info()
-ab_ref['is_target'].value_counts()
+# URLs fornecidas no case
+order_url = 'https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz'
+consumer_url = 'https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz'
+restaurant_url = 'https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz'
+ab_test_url = 'https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab%20test%20ref.tar.gz'
+
+# Salvando localmente
+!wget $order_url -O order.json.gz
+!wget $consumer_url -O consumer.csv.gz
+!wget $restaurant_url -O restaurant.csv.gz
+!wget $ab_test_url -O ab_test.tar.gz
+
+# Descompactar arquivos .tar.gz
+with tarfile.open('ab_test.tar.gz', 'r:gz') as tar:
+    tar.extractall()
+
+## 3. Leitura dos arquivos
+
+# Pedidos
+with gzip.open('order.json.gz', 'rb') as f:
+    order_data = [json.loads(line) for line in f]
+orders = pd.DataFrame(order_data)
+print("Pedidos:", orders.shape)
+
+# Usuários
+consumers = pd.read_csv('consumer.csv.gz')
+print("Usuários:", consumers.shape)
+
+# Restaurantes
+restaurants = pd.read_csv('restaurant.csv.gz')
+print("Restaurantes:", restaurants.shape)
+
+# Teste A/B (a pasta pode conter nome variado)
+ab_test_file = [f for f in os.listdir() if 'ab_test' in f and f.endswith('.csv')][0]
+ab_test = pd.read_csv(ab_test_file)
+print("AB Test:", ab_test.shape)
+
+## 4. Unir dados principais
+# Juntar informações do usuário com marcação do grupo de teste
+consumers_ab = pd.merge(consumers, ab_test, on='customer_id', how='inner')
+
+# Unir com os pedidos
+df = pd.merge(orders, consumers_ab, on='customer_id', how='inner')
+
+print("DataFrame final:", df.shape)
+df.head()
