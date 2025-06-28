@@ -1,10 +1,38 @@
-#!/bin/bash
-mkdir -p ./data/raw
 
-wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz
-wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz
-wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz
-wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz
+Os dados necessários para a análise estão disponíveis em vários arquivos:
 
-tar -xzvf ./data/raw/ab_test_ref.tar.gz -C ./data/raw
-adiciona script de download de dados
+1. Pedidos (order.json): Contém dados de pedidos realizados pelos usuários, incluindo o valor dos pedidos, a data e os itens comprados.
+2. Usuários (consumers.csv): Contém informações sobre os usuários, como ID, nome e status de atividade.
+3. Restaurantes (restaurant.csv): Contém informações sobre os restaurantes, como cidade, classificação de preço e tempo de entrega.
+4. Teste A/B (ab_test_ref.csv): Contém a marcação de usuários que participaram do teste A/B, separando-os em grupo teste (com cupom) e controle (sem cupom).
+
+Links para os arquivos de dados:
+- Pedidos (order.json): [Link](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz)
+- Usuários (consumers.csv): [Link](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz)
+- Restaurantes (restaurant.csv): [Link](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz)
+- Teste A/B (ab_test_ref.csv): [Link](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz)
+
+Tarefas
+
+1. Definir indicadores relevantes para mensurar o sucesso da campanha:
+    - Taxa de Retenção: Percentual de usuários do grupo de teste que realizaram pedidos após o uso do cupom em comparação com o grupo controle.
+    - Valor Médio do Pedido (Ticket Médio): Comparação entre o valor médio gasto no grupo teste e controle.
+    - Frequência de Pedidos: Número de pedidos realizados durante o período para cada grupo.
+    - Taxa de Conversão: Percentual de usuários do grupo teste que usaram o cupom.
+
+2. Análise de viabilidade financeira:
+    - Cálculo do impacto financeiro: Analise o impacto financeiro do uso dos cupons considerando o custo do cupom versus o aumento nas vendas.
+    - Premissas necessárias**: Defina as premissas, como o custo do cupom e a estimativa de aumento de vendas devido à retenção de usuários.
+
+3. Recomendar melhorias e estratégias de teste A/B:
+    - Sugestões de melhorias: Proponha melhorias para otimizar a utilização de cupons. Pode envolver segmentação de usuários, aumento do valor do cupom, ou novas formas de engajamento.
+    - Nova proposta de teste A/B: Proponha uma nova hipótese para um teste A/B, levando em consideração os aprendizados do teste atual.
+
+4. Definição de segmentações de usuários:
+      - Critérios para segmentação: Baseado nas variáveis de comportamento e características dos usuários, defina segmentações que podem ser úteis para o teste A/B, como por exemplo:
+      - Localização geográfica (cidade, estado)
+      - Atividade do usuário (ativo vs. inativo)
+      - Tipo de restaurante preferido (alta/média/baixa classificação de preço)
+
+
+
