@@ -1,13 +1,69 @@
-# Exemplo de segmentação: por ticket médio
-tickets = df.groupby('customer_id')['order_total_amount'].mean().reset_index()
-tickets.columns = ['customer_id', 'ticket_medio']
+# 🧩 Segmentação de Usuários – Case iFood
 
-# Definindo faixas
-tickets['segmento'] = pd.qcut(tickets['ticket_medio'], q=3, labels=['baixo', 'médio', 'alto'])
+## 1. Bibliotecas
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Juntando com ab_ref
-segmentado = tickets.merge(ab_ref, on='customer_id')
+## 2. Carregar base processada
+df = pd.read_csv('dados_completos.csv')  # use o nome correto do seu arquivo final
 
-# Análise de retenção por segmento
-segmentado['repetiu'] = segmentado['customer_id'].isin(df[df['repetiu'] == True]['customer_id'])
-print(segmentado.groupby(['segmento', 'is_target'])['repetiu'].mean())
+## 3. Criar métricas por usuário
+
+user_behavior = df.groupby('customer_id').agg({
+    'order_id': 'count',
+    'order_total_amount': 'sum',
+    'is_target': 'first'  # manter grupo de teste
+}).rename(columns={
+    'order_id': 'qtd_pedidos',
+    'order_total_amount': 'valor_total'
+}).reset_index()
+
+# Calcular ticket médio
+user_behavior['ticket_medio'] = user_behavior['valor_total'] / user_behavior['qtd_pedidos']
+
+## 4. Normalizar dados numéricos para clustering
+
+features = ['qtd_pedidos', 'valor_total', 'ticket_medio']
+X = StandardScaler().fit_transform(user_behavior[features])
+
+## 5. Encontrar número ideal de clusters (cotovelo)
+
+sse = []
+for k in range(1, 8):
+    kmeans = KMeans(n_clusters=k, random_state=42).fit(X)
+    sse.append(kmeans.inertia_)
+
+plt.plot(range(1, 8), sse, marker='o')
+plt.title('Método do Cotovelo')
+plt.xlabel('Número de Clusters')
+plt.ylabel('SSE')
+plt.grid(True)
+plt.show()
+
+## 6. Aplicar K-Means com 3 clusters (exemplo)
+
+kmeans = KMeans(n_clusters=3, random_state=42)
+user_behavior['segmento'] = kmeans.fit_predict(X)
+
+## 7. Análise por segmento
+
+segmento_agg = user_behavior.groupby('segmento').agg({
+    'qtd_pedidos': 'mean',
+    'valor_total': 'mean',
+    'ticket_medio': 'mean'
+})
+print(segmento_agg)
+
+## 8. Cruzar com grupo de teste
+
+segmentos_ab = user_behavior.groupby(['segmento', 'is_target']).agg({
+    'qtd_pedidos': 'mean',
+    'valor_total': 'mean'
+}).reset_index()
+
+sns.barplot(data=segmentos_ab, x='segmento', y='qtd_pedidos', hue='is_target')
+plt.title('Pedidos por Usuário — Target vs Controle por Segmento')
+plt.show()
