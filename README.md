@@ -7,7 +7,6 @@ Este repositório contém a solução do case técnico proposto pela iFood como 
 
 O objetivo foi analisar os resultados de uma campanha de cupons através de um experimento A/B e, com base nos dados, propor recomendações estratégicas voltadas ao crescimento e à retenção de usuários.
 
----
 
 ## 💡 Objetivos:
 
