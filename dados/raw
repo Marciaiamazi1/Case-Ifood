@@ -7,3 +7,4 @@ wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com
 wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz
 
 tar -xzvf ./data/raw/ab_test_ref.tar.gz -C ./data/raw
+adiciona script de download de dados
