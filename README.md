@@ -60,7 +60,8 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 
 3.Acesse os notebooks:
 
--Navegue até a pasta cadernos/
+-Navegue até a pasta notebooks
+
 -Recomendado: abrir com Google Colab ou Jupyter Notebook
 
 4.Baixe os dados:
