@@ -5,12 +5,14 @@
 O objetivo foi analisar os resultados de uma campanha de cupons através de um experimento A/B e, com base nos dados, propor recomendações estratégicas voltadas ao crescimento e à retenção de usuários.
 
 
+
 ## 💡 Objetivos:
 
 - Verificar se a campanha de cupons impactou positivamente a retenção dos usuários.
 - Avaliar a viabilidade financeira da estratégia adotada.
 - Criar segmentações relevantes para o público-alvo do teste.
 - Apresentar recomendações práticas e acionáveis baseadas nos dados.
+
 
 
 ## 🧰 Principais Bibliotecas Utilizadas:
@@ -22,6 +24,7 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 - Scikit-learn (para segmentação)  
 - GitHub (versionamento)  
 - PDF (para relatório final)
+
 
 
 ## 📁 Estrutura do Repositório
@@ -39,6 +42,7 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 - Na pasta data estão os dados utilizados no projeto. 
 - Na pasta notebooksestão os cadernos com o desenvolvimento do projeto.
 - Na pasta reports está o relatório gerado no projeto.
+
 
 
 ## 🚀 Como Executar o Projeto
