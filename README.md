@@ -9,7 +9,7 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 
 ---
 
-## 💡 Objetivos do Projeto
+## 💡 Objetivos:
 
 - Verificar se a campanha de cupons impactou positivamente a retenção dos usuários.
 - Avaliar a viabilidade financeira da estratégia adotada.
