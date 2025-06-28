@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir -p ./data/raw
+
+wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz
+wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz
+wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz
+wget -P ./data/raw https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz
+
+tar -xzvf ./data/raw/ab_test_ref.tar.gz -C ./data/raw
