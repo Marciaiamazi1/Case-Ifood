@@ -1,9 +1,11 @@
+Os dados necessários para a análise não estão armazenados localmente neste repositório, mas podem ser baixados diretamente por meio dos links abaixo:
 
-Os dados não estão armazenados localmente no repositório, mas podem ser baixados diretamente dos links abaixo:
+Nome do Arquivo	Descrição	Link de Download
+order.json.gz	Pedidos realizados	Download
+consumer.csv.gz	Informações de usuários	Download
+restaurant.csv.gz	Detalhes dos restaurantes	Download
+ab_test_ref.tar.gz	Estrutura dos grupos A/B	Download
+> ℹ️ Importante: Recomendamos salvar os arquivos na pasta ./data/raw/ antes de executar os notebooks.
 
-| Nome do Arquivo       | Descrição      | Link de Download |
-|------------------------|----------------|------------------|
-| `order.json.gz`        | Pedidos        | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz) |
-| `consumer.csv.gz`      | Usuários       | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz) |
-| `restaurant.csv.gz`    | Restaurantes   | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz) |
-| `ab_test_ref.tar.gz`   | Grupos A/B     | [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz) |
+Se quiser, posso te ajudar a formatar o restante do README para manter esse padrão de clareza e impacto visual. Posso também sugerir como apresentar as análises e resultados de forma acessível para um público não técnico. Que tal?
+
