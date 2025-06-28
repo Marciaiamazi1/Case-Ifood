@@ -30,10 +30,15 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 
 ## 📁 Estrutura do Repositório
 
-📦 caso-analitico-de-dados-ifood/ ├── cadernos/ │ ├── 01_exploracao_dados.ipynb # ETL e visualização inicial │ ├── 02_analise_ab_test.ipynb # Análise estatística do teste A/B │ └── 03_segmentacao_usuarios.ipynb # Agrupamento de perfis com K-Means ├── dados/ # Arquivos de entrada (a serem baixados) ├── imagens/ # Gráficos e visualizações geradas ├── relatorio/ │ └── relatorio_final.pdf # Apresentação final em PDF └── README.md # Visão geral do projeto
+├── case
+├── data
+├── images
+├── notebooks
+├── reports
 
-
----
+- Na pasta data estão os dados utilizados no projeto. 
+- Na pasta notebooksestão os cadernos com o desenvolvimento do projeto.
+- Na pasta reports está o relatório gerado no projeto.
 
 ## 🚀 Como Executar o Projeto
 
