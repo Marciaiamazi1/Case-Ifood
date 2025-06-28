@@ -40,11 +40,11 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 
 ├── reports
 
----
-
 - Na pasta data estão os dados utilizados no projeto. 
 - Na pasta notebooksestão os cadernos com o desenvolvimento do projeto.
 - Na pasta reports está o relatório gerado no projeto.
+
+---
 
 ## 🚀 Como Executar o Projeto
 
@@ -61,6 +61,8 @@ pip install -r requisitos.txt
 
 4.Baixe os dados:
 Os links para download dos datasets estão disponíveis no início do notebook 01_exploracao_dados.ipynb.
+
+---
 
 📝 Relatório Final
 O arquivo relatorio_final.pdf apresenta os principais insights, conclusões e recomendações do projeto .
