@@ -70,4 +70,4 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 ---
 
 📝 Relatório Final
-O arquivo relatorio_final.pdf apresenta os principais insights, conclusões e recomendações do projeto .
+O relatorio apresenta os principais insights, conclusões e recomendações do projeto .
