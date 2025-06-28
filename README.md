@@ -1,5 +1,5 @@
 markdown
-# 📊 Caso de Análise de Dados – iFood
+## iFood Data Analyst Case 
 
 Este repositório contém a solução do case técnico proposto pela iFood como parte do processo seletivo para a vaga de **Analista de Dados**.
 
