@@ -60,9 +60,9 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 
 3.Acesse os notebooks:
 
--Navegue até a pasta notebooks
+- Navegue até a pasta notebooks
 
--Recomendado: abrir com Google Colab ou Jupyter Notebook
+- Recomendado: abrir com Google Colab ou Jupyter Notebook
 
 4.Baixe os dados:
 - Os links para download dos datasets estão disponíveis no início do notebook 01_exploracao_dados.ipynb.
