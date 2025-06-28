@@ -1,0 +1,59 @@
+# 📊 Análise do Teste A/B — Case iFood
+
+## 1. Bibliotecas
+import pandas as pd
+import scipy.stats as stats
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+## 2. Carregar base já unida do ETL
+# (suponha que ela foi salva no notebook anterior)
+df = pd.read_csv('dados_completos.csv')  # ou use o nome correto caso tenha salvo com outro
+
+## 3. Visualizar estrutura
+df['is_target'].value_counts()
+
+## 4. Criar métricas principais
+
+# Filtrar apenas período da campanha, se necessário (ex: Jan/2019)
+df['order_created_at'] = pd.to_datetime(df['order_created_at'])
+df_periodo = df[df['order_created_at'].dt.month == 1]
+
+# Quantos usuários únicos fizeram pedidos por grupo
+pedidos_por_usuario = df_periodo.groupby(['customer_id', 'is_target']).agg({
+    'order_id': 'count',
+    'order_total_amount': 'sum'
+}).reset_index()
+
+pedidos_por_usuario.rename(columns={
+    'order_id': 'qtd_pedidos',
+    'order_total_amount': 'valor_total'
+}, inplace=True)
+
+# Estatísticas gerais
+pedidos_por_usuario.groupby('is_target').agg({
+    'qtd_pedidos': ['mean', 'median'],
+    'valor_total': ['mean', 'median']
+})
+
+## 5. Testes Estatísticos
+
+# Separar os grupos
+grupo_target = pedidos_por_usuario[pedidos_por_usuario['is_target'] == 'target']
+grupo_controle = pedidos_por_usuario[pedidos_por_usuario['is_target'] == 'control']
+
+# Teste de média de pedidos por usuário
+stat, p = stats.ttest_ind(
+    grupo_target['qtd_pedidos'],
+    grupo_controle['qtd_pedidos'],
+    equal_var=False
+)
+print(f'Teste de pedidos por usuário — p-valor: {p:.4f}')
+
+# Teste de valor total por usuário
+stat2, p2 = stats.ttest_ind(
+    grupo_target['valor_total'],
+    grupo_controle['valor_total'],
+    equal_var=False
+)
+print(f'Teste de valor total por usuário — p-valor: {p2:.4f}')
