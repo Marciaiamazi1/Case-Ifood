@@ -1,0 +1,13 @@
+# 💡 Exemplo de segmentação: por ticket médio
+tickets = df.groupby('customer_id')['order_total_amount'].mean().reset_index()
+tickets.columns = ['customer_id', 'ticket_medio']
+
+# 📌 Definindo faixas
+tickets['segmento'] = pd.qcut(tickets['ticket_medio'], q=3, labels=['baixo', 'médio', 'alto'])
+
+# 🔄 Juntando com ab_ref
+segmentado = tickets.merge(ab_ref, on='customer_id')
+
+# 📈 Análise de retenção por segmento
+segmentado['repetiu'] = segmentado['customer_id'].isin(df[df['repetiu'] == True]['customer_id'])
+print(segmentado.groupby(['segmento', 'is_target'])['repetiu'].mean())
