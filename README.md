@@ -16,7 +16,7 @@ O objetivo foi analisar os resultados de uma campanha de cupons através de um e
 - Apresentar recomendações práticas e acionáveis baseadas nos dados.
 
 
-## 🧰 Tecnologias Utilizadas
+## 🧰 Principais Bibliotecas Utilizadas:
 
 - Python 3.x  
 - Google Colab  
