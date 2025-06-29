@@ -1,71 +1,30 @@
+# Case Técnico de Data Analytics – iFood
 
-## Case ifood - Data Analyst
+Este projeto tem como objetivo analisar os resultados de uma campanha de cupons via teste A/B no iFood, explorando indicadores de desempenho, viabilidade financeira, segmentação de usuários e recomendações estratégicas com base nos dados.
 
+## 📊 Objetivos
+- Avaliar o impacto do cupom na retenção e no ticket médio
+- Segmentar usuários com base em comportamento de compra
+- Propor melhorias e uma nova versão do teste A/B
 
-O objetivo foi analisar os resultados de uma campanha de cupons através de um experimento A/B e, com base nos dados, propor recomendações estratégicas voltadas ao crescimento e à retenção de usuários.
+## 🧠 Tecnologias utilizadas
+- Python 3
+- Google Colab
+- Pandas, Seaborn, Scikit-learn, Matplotlib, Scipy
 
+## ▶️ Como executar
 
+1. Abra o notebook no Google Colab (link abaixo).
+2. Rode célula por célula seguindo a ordem do notebook.
+3. Os gráficos serão salvos automaticamente na pasta `/imagens`.
 
-## 💡 Objetivos:
+📌 Notebook:
+[👉 Clique aqui para abrir no Google Colab](https://colab.research.google.com/github/SEU_USUARIO/NOME_DO_REPO/blob/main/analise_ifood_ab_test.ipynb)
 
-- Verificar se a campanha de cupons impactou positivamente a retenção dos usuários.
-- Avaliar a viabilidade financeira da estratégia adotada.
-- Criar segmentações relevantes para o público-alvo do teste.
-- Apresentar recomendações práticas e acionáveis baseadas nos dados.
+📁 Pasta de imagens:
+Todos os gráficos ficam em `/imagens/`, prontos para incluir no seu relatório.
 
-
-
-## 🧰 Principais Bibliotecas Utilizadas:
-
-- Python 3.x  
-- Google Colab  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn (para segmentação)  
-- GitHub (versionamento)  
-- PDF (para relatório final)
-
-
-
-## 📁 Estrutura do Repositório
-
-├── case
-
-├── data
-
-├── images
-
-├── notebooks
-
-├── reports
-
-- Na pasta data estão os dados utilizados no projeto. 
-- Na pasta notebooksestão os cadernos com o desenvolvimento do projeto.
-- Na pasta reports está o relatório gerado no projeto.
-
-
-
-## 🚀 Como Executar o Projeto
-
-🚀 Como Executar o Projeto
-
-1.Clone este repositório:
-
-- git clone https://github.com/seu-usuario/ifood-data-analytics-case.git
-
-2.Instale as dependências:
-
-- pip install -r requisitos.txt
-
-3.Acesse os notebooks:
-
-- Navegue até a pasta notebook
-
-- Recomendado: abrir com Google Colab ou Jupyter Notebook
-
-4.Baixe os dados:
-- Os links para download dos datasets estão disponíveis no início do notebook 01_exploracao_dados.ipynb.
-
-
-📝 Relatório Final
-O relatorio apresenta os principais insights, conclusões e recomendações do projeto .
+## 📄 Entregáveis
+- `analise_ifood_ab_test.ipynb`: notebook com código comentado e estruturado
+- `Relatorio_iFood_Case.pdf`: relatório final com insights para negócios
+- Pasta `/imagens/`: gráficos salvos para documentação
