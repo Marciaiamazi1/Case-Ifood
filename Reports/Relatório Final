@@ -1,30 +1,141 @@
-# 📘 Análise de Cupons – iFood
+# 📊 Case Técnico de Data Analytics – iFood
 
-## 1. 📥 Download dos dados
-Explicação: usamos `urllib` para baixar os arquivos diretamente da nuvem para o ambiente Colab.
+Este projeto apresenta a análise de uma campanha de cupons do iFood realizada via teste A/B. Ele explora os efeitos da campanha nas métricas de comportamento de usuários, como ticket médio e retenção, além de aplicar uma segmentação com KMeans para propor estratégias personalizadas para cada grupo de cliente.
 
-## 2. 📦 Extração e amostragem dos pedidos
-Criamos uma amostra de 300 mil pedidos para análises ágeis.
+---
 
-## 3. 🧹 Carga e limpeza dos dados
-Carregamos os dados, renomeamos colunas se necessário, mesclamos os datasets por `customer_id`.
+## 🎯 Objetivo
 
-## 4. 🎯 Análise do teste A/B
-Avaliação do impacto do cupom nos indicadores:
-- Ticket médio (teste t)
-- Taxa de retenção
+Avaliar os efeitos de uma campanha promocional com cupons do iFood a partir de um teste A/B, examinando métricas de retenção e ticket médio, e gerando recomendações estratégicas com base em segmentação comportamental dos usuários.
 
-## 5. 📈 Visualizações
-Gráficos gerados:
-- boxplot: Ticket médio por grupo
-- barras: Retenção por grupo
-Todos salvos na pasta `/imagens/`
+---
 
-## 6. 👥 Segmentação de usuários
-Aplicamos KMeans para separar os perfis em 3 clusters com base em `n_pedidos` e `ticket_medio`.
+## 📂 Estrutura do Repositório
 
-## 7. 📊 Gráficos por cluster
-Gráfico de dispersão dos clusters e resumo com médias.
 
-## 8. 🧠 Conclusões e recomendações
-Insight financeiro e estratégico por segmento.
+---
+
+## ▶️ Execução
+
+1. Acesse o notebook no Google Colab:
+
+   [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SEU_USUARIO/SEU_REPOSITORIO/blob/main/analise_ifood_ab_test.ipynb)
+
+2. Execute as células passo a passo. Todos os gráficos serão automaticamente salvos na pasta `/imagens/`.
+
+---
+
+## 📈 Principais Resultados
+
+- 🎟️ **Impacto do cupom:** Não houve diferença estatisticamente significativa no ticket médio (p-valor ≈ 0.71)
+- 🔁 **Retenção:** Leve aumento no grupo com cupom (Target: 46,7% vs Controle: 44,1%), porém sem significância estatística
+- 👥 **Segmentação de usuários via KMeans:**
+  - Cluster 0: Gastadores pontuais (~R$115/ticket)
+  - Cluster 1: Usuários recorrentes (~3.7 pedidos)
+  - Cluster 2: Pouco engajados (alto risco de churn)
+
+---
+
+## 💡 Recomendações
+
+- Adotar campanhas de cupons personalizadas por cluster:
+  - 🎯 VIPs → mimos e fidelização
+  - 🔁 Frequentes → cashback progressivo
+  - ⏳ Risco de churn → cupom agressivo de reativação
+- Testar outras mecânicas promocionais (ex: frete grátis)
+- Acompanhar métricas de retorno por segmento no próximo teste A/B
+
+---
+
+## 💻 Tecnologias utilizadas
+
+- Python 3
+- Google Colab
+- Pandas, Seaborn, Matplotlib
+- Scikit-learn (KMeans)
+- Scipy (Teste t)
+
+---
+
+## 📄 Licença
+
+Uso educacional, não comercial.  
+Desenvolvido por [Paula] com fins de avaliação técnica.
+
+# 📊 Case Técnico de Data Analytics – iFood
+
+Este projeto apresenta a análise de uma campanha de cupons do iFood realizada via teste A/B. Ele explora os efeitos da campanha nas métricas de comportamento de usuários, como ticket médio e retenção, além de aplicar uma segmentação com KMeans para propor estratégias personalizadas para cada grupo de cliente.
+
+---
+
+## 🎯 Objetivo
+
+Avaliar os efeitos de uma campanha promocional com cupons do iFood a partir de um teste A/B, examinando métricas de retenção e ticket médio, e gerando recomendações estratégicas com base em segmentação comportamental dos usuários.
+
+---
+
+## 📂 Estrutura do Repositório
+
+
+---
+
+## ▶️ Execução
+
+1. Acesse o notebook no Google Colab:
+
+   [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SEU_USUARIO/SEU_REPOSITORIO/blob/main/analise_ifood_ab_test.ipynb)
+
+2. Execute as células passo a passo. Todos os gráficos serão automaticamente salvos na pasta `/imagens/`.
+
+---
+
+## 📈 Resultados Visuais
+
+### 🎟️ Ticket Médio por Grupo (Controle vs Cuponado)
+
+![Ticket Médio](imagens/ticket_medio_por_grupo.png)
+
+💡 Não houve diferença estatística significativa entre os grupos.  
+Grupo com cupom não gastou mais do que o grupo controle (p ≈ 0.71)
+
+---
+
+### 🔁 Retenção por Grupo
+
+![Retenção](imagens/retencao_por_grupo.png)
+
+Embora o grupo que recebeu cupom tenha mostrado maior retenção (46,7% vs 44,1%), a diferença **não é estatisticamente significativa**.
+
+---
+
+### 👥 Segmentação de Clientes via K-Means
+
+![Clusters](imagens/segmentacao_kmeans_scatter.png)
+
+**Cluster 0:** Gastadores pontuais (~R$115/ticket)  
+**Cluster 1:** Usuários fiéis e recorrentes  
+**Cluster 2:** Baixo engajamento / Risco de churn
+
+---
+
+## 💡 Recomendações
+
+- **Cluster 0 (VIP):** Cupom de luxo ou acesso exclusivo
+- **Cluster 1 (Frequente):** Cashback por recorrência
+- **Cluster 2 (Churn):** Ofertas agressivas de reengajamento
+
+Sugerimos também testar outras formas de benefício, como **frete grátis** ou **vantagens não monetárias**.
+
+---
+
+## 💻 Tecnologias utilizadas
+
+- Python 3
+- Google Colab
+- Pandas, Seaborn, Matplotlib
+- Scikit-learn (KMeans)
+- Scipy (teste estatístico)
+
+---
+
+
