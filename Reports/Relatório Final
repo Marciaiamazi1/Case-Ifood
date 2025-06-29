@@ -1,0 +1,30 @@
+# 📘 Análise de Cupons – iFood
+
+## 1. 📥 Download dos dados
+Explicação: usamos `urllib` para baixar os arquivos diretamente da nuvem para o ambiente Colab.
+
+## 2. 📦 Extração e amostragem dos pedidos
+Criamos uma amostra de 300 mil pedidos para análises ágeis.
+
+## 3. 🧹 Carga e limpeza dos dados
+Carregamos os dados, renomeamos colunas se necessário, mesclamos os datasets por `customer_id`.
+
+## 4. 🎯 Análise do teste A/B
+Avaliação do impacto do cupom nos indicadores:
+- Ticket médio (teste t)
+- Taxa de retenção
+
+## 5. 📈 Visualizações
+Gráficos gerados:
+- boxplot: Ticket médio por grupo
+- barras: Retenção por grupo
+Todos salvos na pasta `/imagens/`
+
+## 6. 👥 Segmentação de usuários
+Aplicamos KMeans para separar os perfis em 3 clusters com base em `n_pedidos` e `ticket_medio`.
+
+## 7. 📊 Gráficos por cluster
+Gráfico de dispersão dos clusters e resumo com médias.
+
+## 8. 🧠 Conclusões e recomendações
+Insight financeiro e estratégico por segmento.
