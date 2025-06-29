@@ -1,6 +1,7 @@
 # 📊 Case Técnico de Data Analytics – iFood
 
-Este projeto apresenta a análise de uma campanha de cupons do iFood realizada via teste A/B. A solução explora os efeitos da campanha sobre o comportamento dos usuários (ticket médio e retenção), além de aplicar uma segmentação via KMeans para propor estratégias personalizadas e sustentáveis.
+Este case apresenta a análise de uma campanha de cupons do iFood realizada via teste A/B. 
+A solução explora os efeitos da campanha sobre o comportamento dos usuários (ticket médio e retenção), além de aplicar uma segmentação via KMeans para propor estratégias personalizadas e sustentáveis.
 
 ---
 
@@ -93,9 +94,5 @@ Se recuperarmos 30.000 clientes do Cluster 2 com ticket médio de R$40:
 
 ---
 
-## 📄 Licença
 
-Este projeto foi desenvolvido para fins de estudo e avaliação técnica.  
-🔐 Uso educacional e não comercial.  
-👤 Criado por Paula | Julho/2025
 
