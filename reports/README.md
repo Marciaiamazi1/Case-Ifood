@@ -1,4 +1,4 @@
-# 📊 Case Técnico de Data Analytics – iFood
+# 📊 Data Analytics Case – iFood
 
 Este case apresenta a análise de uma campanha de cupons do iFood realizada via teste A/B. 
 A solução explora os efeitos da campanha sobre o comportamento dos usuários (ticket médio e retenção), além de aplicar uma segmentação via KMeans para propor estratégias personalizadas e sustentáveis.
