@@ -1,10 +1,9 @@
 # 📚 Catálogo de Dados – Case iFood
 
-Este diretório contém os conjuntos de dados utilizados para análise do case técnico, com origem e dicionário de variáveis de cada tabela.
 
 ---
 
-## 📦 Tabelas Disponíveis
+## 📦 Tabelas 
 
 ### 1. `order.json` — 📍 [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz)
 
@@ -62,10 +61,7 @@ Este diretório contém os conjuntos de dados utilizados para análise do case t
 
 ---
 
-## ⚠️ Observações
 
-- Todos os dados são públicos e utilizados exclusivamente para fins educacionais no contexto de um desafio técnico.
-- Recomenda-se o uso de amostragem ou filtragem para manuseio local devido ao tamanho das bases.
 
 
 
