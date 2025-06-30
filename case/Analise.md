@@ -84,5 +84,4 @@ Analisar se o envio de cupons (grupo target) gerou impacto estatisticamente sign
 
 ---
 
-🧰 **Ferramentas
 
