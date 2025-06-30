@@ -1,6 +1,3 @@
-# 📁 Documentação dos Dados Utilizados
-
-Este diretório contém os arquivos utilizados no processamento e análise do case técnico do iFood.
 
 ## 🗃️ Arquivos de Dados
 
