@@ -1,6 +1,5 @@
 # 🧾 Contexto Geral - Data Analyst Case iFood
 
-Este documento descreve o contexto, os objetivos e as análises desenvolvidas no case.
 
 ---
 
