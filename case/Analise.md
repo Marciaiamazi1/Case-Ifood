@@ -91,7 +91,7 @@ Analisar se o envio de cupons (grupo target) gerou impacto estatisticamente sign
 
 📎 Resultados completos disponíveis no notebook principal  
 📄 Relatório visual: [`Relatorio_iFood_Case.pdf`](Relatorio_iFood_Case.pdf)  
-📂 Dados exportados: pasta [`dados-analisados/`](../dados-analisados/)
+
 
 
 
