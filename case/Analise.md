@@ -1,4 +1,4 @@
-# 📊 Análise Completa – Case Técnico iFood
+# 📊 Análise Completa 
 
 Este documento apresenta uma visão detalhada da análise realizada com base nos dados. A proposta envolve avaliar o impacto de uma campanha de cupons por meio de um teste A/B e segmentar os usuários com base no comportamento de pedidos e valor gasto.
 
