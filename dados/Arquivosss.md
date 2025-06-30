@@ -35,14 +35,14 @@
 - [Restaurantes (`restaurant.csv`)](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz)  
 - [Teste A/B (`ab_test_ref.csv`)](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz)
 
-> Obs.: 🔍 Amostragem aplicada
+---
+
+## 🔗 Amostragem aplicada
 A base original continha mais de 3,6 milhões de pedidos , o que torna a execução integral computacionalmente custosa.
 Por esse motivo, foi aplicada uma amostragem pesquisada estratificada , geralmente a base para aproximadamente 300 mil registros .
 
 As distribuições de variáveis-chave como ticket médio, taxas de retenção e frequência de pedidos por cliente foram comparadas entre as bases (original e amostrada), garantindo que os padrões estatísticos fossem preservados .
 
 ✅ Essa amostra foi utilizada em todas as análises estatísticas, visualizações e segmentações.
-
-
 
 
