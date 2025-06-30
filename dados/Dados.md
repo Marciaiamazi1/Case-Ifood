@@ -1,29 +1,22 @@
-📦 Fontes de dados analisadas:
-Pedidos dos clientes
+## 📦 Dados
 
-Informações como: valor total do pedido, data/hora, ID do cliente e restaurante.
 
-Volume total bruto: mais de 3,6 milhões de pedidos.
+### 🗂️ Arquivos 
 
-Clientes (Usuários)
+- `order.json` — Histórico de pedidos (data, valor, cliente, restaurante)
+- `consumer.csv` — Cadastro e características dos usuários
+- `restaurant.csv` — Informações dos restaurantes (ticket médio, tempo de entrega)
+- `ab_test_ref.csv` — Identificação do grupo A/B (controle vs target)
 
-Dados cadastrais e comportamentais dos usuários da plataforma.
+### 🔍 Amostragem aplicada
 
-Número de usuários únicos: ~806 mil.
+A base original continha mais de **3,6 milhões de pedidos**, o que torna a execução integral computacionalmente custosa.  
+Por esse motivo, foi aplicada uma **amostragem aleatória estratificada**, reduzindo a base para aproximadamente **300 mil registros**. 
 
-Restaurantes
+As distribuições de variáveis-chave como **ticket médio, taxa de retenção e frequência de pedidos por cliente** foram comparadas entre as bases (original e amostrada), garantindo que **os padrões estatísticos fossem preservados**.  
 
-Dados sobre os estabelecimentos, como tempo médio de entrega, ticket médio histórico e localização.
+✅ Essa amostra foi utilizada em todas as análises estatísticas, visualizações e segmentações.
 
-Cerca de 7 mil restaurantes únicos.
 
-Referência de Teste A/B (ab_test_ref.csv)
-
-Identificação dos clientes no grupo controle ou grupo impactado pela campanha de cupons.
-
-🎯 Observação importante:
-Para otimizar performance e facilitar a reprodutibilidade, foi utilizada uma amostra representativa dos dados originais — aproximadamente 300 mil registros de pedidos, preservando as proporções estatísticas relevantes (ticket médio, frequência, etc).
-
-Se quiser, posso te ajudar a incluir esse detalhamento no seu repositório ou relatório executivo também. Quer que eu formate isso no estilo do README.md? 💡📘🚀
 
 
