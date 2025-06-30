@@ -14,7 +14,6 @@ Este repositório contém o desenvolvimento completo de um case técnico de aná
 - Recomendações estratégicas baseadas no perfil de cada cluster
 - Entregável estruturado para facilitar **interpretação por lideranças**
 
----
 
 
 ---
