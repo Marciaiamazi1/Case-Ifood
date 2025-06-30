@@ -1,4 +1,4 @@
-# Case Técnico de Data Analytics – iFood
+# Case Data Analytics – iFood
 
 Este projeto tem como objetivo analisar os resultados de uma campanha de cupons via teste A/B no iFood, explorando indicadores de desempenho, viabilidade financeira, segmentação de usuários e recomendações estratégicas com base nos dados.
 
