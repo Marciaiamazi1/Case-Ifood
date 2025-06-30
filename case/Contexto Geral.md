@@ -51,9 +51,5 @@ Durante o projeto, as seguintes análises foram realizadas:
 
 ---
 
-## 👩‍💼 Desenvolvido por
 
-**Paula**  
-Julho de 2025  
-Para processo seletivo técnico – iFood
 
