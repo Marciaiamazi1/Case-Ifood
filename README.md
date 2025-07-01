@@ -18,8 +18,6 @@ Este case tem como objetivo analisar os resultados de uma campanha de cupons via
 2. Rode célula por célula seguindo a ordem do notebook.
 3. Os gráficos serão salvos automaticamente na pasta `/imagens`.
 
-📌 Notebook:
-[👉 Clique aqui para abrir no Google Colab](https://colab.research.google.com/github/SEU_USUARIO/NOME_DO_REPO/blob/main/analise_ifood_ab_test.ipynb)
 
 📁 Pasta de imagens:
 Todos os gráficos ficam em `/imagens/`, prontos para incluir no seu relatório.
