@@ -1,9 +1,9 @@
-# 🧾 Contexto Geral - Data Analyst Case iFood
+#  Contexto Geral - Data Analyst Case iFood
 
 
 ---
 
-## 🧠 Contexto
+##  Contexto
 
 O iFood, líder em delivery de alimentos na América Latina, realizou uma campanha de cupons com o intuito de incentivar novos pedidos e aumentar a retenção de clientes. Para validar a efetividade da iniciativa, foi conduzido um **teste A/B**, em que parte dos usuários recebeu o benefício (grupo "target") e a outra parte não (grupo "controle").
 
@@ -11,7 +11,7 @@ O desafio analítico consiste em avaliar se a campanha teve impacto significativ
 
 ---
 
-## 🔍 O que foi analisado
+##  O que foi analisado
 
 Durante o projeto, as seguintes análises foram realizadas:
 
@@ -31,7 +31,7 @@ Durante o projeto, as seguintes análises foram realizadas:
 
 ---
 
-## 📌 Entregáveis
+##  Entregáveis
 
 - Notebook interativo com toda a análise (Colab/Jupyter)
 - Relatório visual em PDF (com gráficos e insights)
@@ -40,7 +40,7 @@ Durante o projeto, as seguintes análises foram realizadas:
 
 ---
 
-## 🧰 Ferramentas e técnicas utilizadas
+##  Ferramentas e técnicas utilizadas
 
 - Python (Google Colab)
 - Pandas, Seaborn, Scikit-learn, Matplotlib
