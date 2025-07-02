@@ -5,6 +5,7 @@ O iFood, líder em delivery de alimentos na América Latina, realizou uma campan
 O desafio analítico consistiu em avaliar se a campanha teve impacto significativo nas métricas de comportamento dos usuários e, a partir disso, propor recomendações personalizadas com base em segmentações comportamentais.
 
 
+
 ##  Análises realizadas
 - Análise de conversão entre grupo controle e grupo cupom (teste A/B)
 
@@ -15,6 +16,7 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 - Criação de gráficos para suporte às conclusões
   
 
+
 ##  Como Executar o repositório
 1. Clone este repositório:
  https://github.com/Marciaiamazi1/Case-Ifood.git
@@ -22,8 +24,8 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 2. Abra o arquivo case_ifood.ipynb no Jupyter ou Google Colab.
 
 
-## Estrutura de Arquivos
 
+## Estrutura de Arquivos
 - `case`
 - `dados`
 - `imagens`
@@ -31,13 +33,17 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 - `READ`
 
 
-##  Resultados
 
-- O grupo que recebeu o cupom A teve uma taxa de conversão 15% maior do que o grupo controle (p-valor < 0.05), indicando que o cupom teve efeito positivo estatisticamente significativo.
-  
-- Usuários com alto ticket médio responderam melhor à promoção.
-  
-- A estratégia é viável financeiramente no curto prazo.
+## Avaliação do Teste A/B
+Analisar o envio de cupons (grupo alvo) gerou impacto estatisticamente significativo frente ao grupo controle.
+
+| Métrica                       | Controle   | Alvo      | Resultado Estatístico  |
+|-------------------------------|------------|-----------|------------------------|
+| **Bilhete Médio**              | R$ 76,12   | R$ 76,91  | p = 0,71 (sem impacto)  |
+| **Retenção (% 2+ Pedidos)**   | 44,1%      | 46,7%     | p = 0,22 (sem impacto)  |
+
+ **Conclusão**: A campanha de cupons não gerou impacto estatisticamente relevante no período analisado.
+
 
 
 ##  Bibliotecas e Tecnologias Utilizadas
