@@ -9,7 +9,7 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 - Propor melhorias e uma nova versão do teste A/B
 
 ##  Análises realizadas
-- Análise de conversão entre grupo controle e grupo cupom (testeA/B)
+- Análise de conversão entre grupo controle e grupo cupom (teste A/B)
 - Segmentação de usuários com base em comportamento e ticket médio
 - Avaliação de viabilidade financeira dos cupons (ROI)
 - Criação de gráficos para suporte às conclusões
