@@ -1,6 +1,7 @@
-# Case Ifood - Data Analystics 
+# Case Técnico de Data Analytics - IFood
 
-Este repositório tem como objetivo explicar o case do Github Ifood.
+Análise de dados para avaliar o desempenho de cupons promocionais no app iFood, com base em testes A/B, segmentação de usuários e viabilidade financeira.
+
 
 ##  Objetivos
 - Avaliar o impacto do cupom na retenção e no ticket médio
@@ -12,17 +13,36 @@ Este repositório tem como objetivo explicar o case do Github Ifood.
 - Google Colab
 - Pandas, Seaborn, Scikit-learn, Matplotlib, Scipy
 
-##  Como executar
+##  Como Executar
+1. Clone este repositório:
+```bash
+git clone https://github.com/Marciaiamazi1/Case-Ifood.git
 
-1. Abra o notebook no Google Colab.
-2. Rode célula por célula seguindo a ordem do notebook.
-3. Os gráficos serão salvos automaticamente na pasta `/imagens`.
+
+---
+
+### 5. **Estrutura de Arquivos**
+- Explique o que cada arquivo/pasta contém
+
+```markdown
+##  Estrutura de Arquivos
+
+- `etl_kpis_ifood.py`: script para processamento e extração de métricas.
+- `case_ifood.ipynb`: notebook principal com a análise.
+- `data/`: contém os arquivos de dados usados.
+- `README.md`: este arquivo.
+
+---
+
+### 5. **Estrutura de Arquivos**
+- Explique o que cada arquivo/pasta contém
+
+```markdown
+## 🗂️ Estrutura de Arquivos
+
+- `etl_kpis_ifood.py`: script para processamento e extração de métricas.
+- `case_ifood.ipynb`: notebook principal com a análise.
+- `data/`: contém os arquivos de dados usados.
+- `README.md`: este arquivo.
 
 
- Pasta de imagens:
-Todos os gráficos ficam em `/imagens/`
-
-##  Entregáveis
-- `analise_ifood_ab_test.ipynb`: notebook com código comentado e estruturado
-- `Relatorio_iFood_Case.pdf`: relatório final com insights para negócios
-- Pasta `/imagens/`: gráficos salvos para documentação
