@@ -19,30 +19,5 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 git clone https://github.com/Marciaiamazi1/Case-Ifood.git
 
 
----
-
-### 5. **Estrutura de Arquivos**
-- Explique o que cada arquivo/pasta contém
-
-```markdown
-##  Estrutura de Arquivos
-
-- `etl_kpis_ifood.py`: script para processamento e extração de métricas.
-- `case_ifood.ipynb`: notebook principal com a análise.
-- `data/`: contém os arquivos de dados usados.
-- `README.md`: este arquivo.
-
----
-
-### 5. **Estrutura de Arquivos**
-- Explique o que cada arquivo/pasta contém
-
-```markdown
-## 🗂️ Estrutura de Arquivos
-
-- `etl_kpis_ifood.py`: script para processamento e extração de métricas.
-- `case_ifood.ipynb`: notebook principal com a análise.
-- `data/`: contém os arquivos de dados usados.
-- `README.md`: este arquivo.
 
 
