@@ -18,7 +18,7 @@
 - **Variação**: Tempo de entrega e categorias de preço variáveis entre os restaurantes
 
 
----
+
 
 #  2. Catálogo de Dados 
 
