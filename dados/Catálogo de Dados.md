@@ -1,8 +1,29 @@
-#  Catálogo de Dados 
+
+
+#  **1. Análise Descritiva dos Dados**
+
+###  **Pedidos**
+- **Total de pedidos analisados**: 3,6 milhões
+- **Período**: dezembro/2018 a janeiro/2019
+- **Ticket médio geral**: ~R$ 75,40
+
+### **Usuários**
+- **Total de usuários registrados**: 806 mil
+- **Percentual de usuários ativos**: 61%
+- **Distribuição de usuários**: Concentrada em novos cadastros nos últimos 6 meses
+
+###  **Restaurantes**
+- **Total de restaurantes únicos**: ~7.000
+- **Ticket médio por restaurante**: R$ 48,00
+- **Variação**: Tempo de entrega e categorias de preço variáveis entre os restaurantes
+
 
 ---
 
-##  Tabelas 
+#  2. Catálogo de Dados 
+
+
+###  Tabelas 
 
 ### 1. `order.json` —  [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz)
 
@@ -58,14 +79,9 @@
 - `customer_id`: ID do usuário
 - `is_target`: Grupo designado — `target` (recebeu cupom) ou `control` (grupo de controle)
 
----
 
-## Amostragem aplicada
-A base original continha mais de 3,6 milhões de pedidos, o que torna a execução integral computacionalmente custosa. Por esse motivo, foi aplicada uma amostragem pesquisada estratificada, geralmente uma base para aproximadamente 300 mil registros.
 
-As distribuições de variáveis-chave como ticket médio, taxas de retenção e frequência de pedidos por cliente foram comparadas entre as bases (original e amostrada), garantindo que os padrões estatísticos fossem preservados.
 
- Essa amostra foi utilizada em todas as análises estatísticas, visualizações e segmentações.
 
 
 
