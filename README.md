@@ -44,5 +44,6 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 | **Matplotlib**           | Criação de gráficos e complementos visuais                 |
 | **Scikit-learn**         | Segmentação e clustering (KMeans)                          |
 | **Scipy (stats)**        | Testes estatísticos para validação do teste A/B            |
- 
+
+
 
