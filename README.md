@@ -15,9 +15,40 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 
 ##  Como Executar
 1. Clone este repositório:
-```bash
-git clone https://github.com/Marciaiamazi1/Case-Ifood.git
+ https://github.com/Marciaiamazi1/Case-Ifood.git
 
+2. Abra o arquivo case_ifood.ipynb no Jupyter ou Google Colab.
+
+---
+
+### 5. **Estrutura de Arquivos**
+
+
+``
+## 🗂️ Estrutura de Arquivos
+
+- `etl_kpis_ifood.py`: script para processamento e extração de métricas.
+- `case_ifood.ipynb`: notebook principal com a análise.
+- `data/`: contém os arquivos de dados usados.
+- `README.md`: este arquivo.
+
+
+Abra o arquivo case_ifood.ipynb no Jupyter ou Google Colab.
+
+yaml
+Copiar
+Editar
+
+---
+
+### 5. **Estrutura de Arquivos**
+
+- `case'
+- `dados`
+- `imagens`
+- `notebook`
+- `relatório`
+- `README.md
 
 
 
