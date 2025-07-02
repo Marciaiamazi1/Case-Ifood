@@ -8,10 +8,11 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 - Segmentar usuários com base em comportamento de compra
 - Propor melhorias e uma nova versão do teste A/B
 
-##  Bibliotecas utilizadas
-- Python 3
-- Google Colab
-- Pandas, Seaborn, Scikit-learn, Matplotlib, Scipy
+##  Análises realizadas
+- Análise de conversão entre grupo controle e grupo cupom (testeA/B)
+- Segmentação de usuários com base em comportamento e ticket médio
+- Avaliação de viabilidade financeira dos cupons (ROI)
+- Criação de gráficos para suporte às conclusões
 
 ##  Como Executar
 1. Clone este repositório:
