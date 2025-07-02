@@ -21,16 +21,16 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 1. Clone este repositório:
  https://github.com/Marciaiamazi1/Case-Ifood.git
 
-2. Abra o arquivo case_ifood.ipynb no Jupyter ou Google Colab para visualizar as análises realizadas e explorar os resultados.
+2. Abra os arquivos contidos na pasta notebook no Jupyter ou Google Colab para visualizar as análises realizadas e explorar os resultados.
 
 
 
 ## Estrutura de Arquivos
-- `case`
-- `dados`
-- `imagens`
-- `notebook`
-- `READ`
+- `case`:  Scripts e códigos principais
+- `dados`: Dados utilizados para a análise
+- `imagens`: Imagens geradas durante a análise (gráficos, diagramas)
+- `notebook`: Análises interativas
+- `README:`Arquivo, com explicações detalhadas do projeto
 
 
 
@@ -46,17 +46,17 @@ Analisar o envio de cupons (grupo alvo) gerou impacto estatisticamente significa
 
 
 
-##  Bibliotecas e Tecnologias Utilizadas
 
+## Bibliotecas e tecnologias utilizadas
 
-| Tecnologia               | Finalidade Principal                                       |
-|--------------------------|------------------------------------------------------------|
-| **Python (Google Colab)**| Ambiente de desenvolvimento e execução em nuvem           |
-| **Pandas**               | Manipulação, limpeza e análise de dados tabulares         |
-| **Seaborn**              | Visualização estatística com gráficos personalizados       |
-| **Matplotlib**           | Criação de gráficos e complementos visuais                 |
-| **Scikit-learn**         | Segmentação e clustering (KMeans)                          |
-| **Scipy (stats)**        | Testes estatísticos para validação do teste A/B            |
+| Tecnologia                | Finalidade Principal                              |
+| ------------------------- | ------------------------------------------------- |
+| **Python (Google Colab)** | Ambiente de desenvolvimento e execução em nuvem   |
+| **Pandas**                | Manipulação, limpeza e análise de dados tabulares |
+| **Matplotlib**            | Criação de gráficos e complementos visuais        |
+| **Scikit-learn**          | Segmentação e clusterização (KMeans)              |
+| **Scipy (estatísticas)**  | Testes estatísticos para validação do teste A/B   |
+
 
 
 
