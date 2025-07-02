@@ -34,6 +34,15 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 - A estratégia é viável financeiramente no curto prazo.
 
 
-##  Tecnologias utilizadas
+##  Bibliotecas e Tecnologias Utilizadas
 
+| Tecnologia               | Finalidade Principal                                       |
+|--------------------------|------------------------------------------------------------|
+| **Python (Google Colab)**| Ambiente de desenvolvimento e execução em nuvem           |
+| **Pandas**               | Manipulação, limpeza e análise de dados tabulares         |
+| **Seaborn**              | Visualização estatística com gráficos personalizados       |
+| **Matplotlib**           | Criação de gráficos e complementos visuais                 |
+| **Scikit-learn**         | Segmentação e clustering (KMeans)                          |
+| **Scipy (stats)**        | Testes estatísticos para validação do teste A/B            |
+       |
 
