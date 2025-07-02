@@ -20,7 +20,7 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 2. Abra o arquivo case_ifood.ipynb no Jupyter ou Google Colab.
 
 
-### **Estrutura de Arquivos**
+## Estrutura de Arquivos
 
 - `case`
 - `dados`
@@ -28,7 +28,12 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 - `notebook`
 - `READ`
 
+##  Resultados
+- O grupo que recebeu o cupom A teve uma taxa de conversão 15% maior do que o grupo controle (p-valor < 0.05), indicando que o cupom teve efeito positivo estatisticamente significativo.
+- Usuários com alto ticket médio responderam melhor à promoção.
+- A estratégia é viável financeiramente no curto prazo.
 
 
+##  Tecnologias utilizadas
 
 
