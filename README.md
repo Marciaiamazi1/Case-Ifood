@@ -28,7 +28,9 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 ##  Resultados
 - O grupo que recebeu o cupom A teve uma taxa de conversão 15% maior do que o grupo controle (p-valor < 0.05), indicando que o cupom teve efeito positivo estatisticamente significativo.
+  
 - Usuários com alto ticket médio responderam melhor à promoção.
+  
 - A estratégia é viável financeiramente no curto prazo.
 
 
