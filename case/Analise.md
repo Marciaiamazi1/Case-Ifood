@@ -82,15 +82,7 @@ Analisar se o envio de cupons (grupo target) gerou impacto estatisticamente sign
 - A personalização por perfil tem alto potencial de otimizar campanhas
 - Próximo passo sugerido: **novo teste A/B segmentado por cluster**
 
----
 
-🧰 **Ferramentas utilizadas**:
-- Python 3 + Google Colab
-- Pandas, Seaborn, Matplotlib
-- Scikit-learn (KMeans), Scipy (teste t)
-
-📎 Resultados completos disponíveis no notebook principal  
-📄 Relatório visual: [`Relatorio_iFood_Case.pdf`](Relatorio_iFood_Case.pdf)  
 
 
 
