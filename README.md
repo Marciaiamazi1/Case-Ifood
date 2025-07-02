@@ -7,9 +7,13 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 ##  Análises realizadas
 - Análise de conversão entre grupo controle e grupo cupom (teste A/B)
+
 - Segmentação de usuários com base em comportamento e ticket médio
+
 - Avaliação de viabilidade financeira dos cupons (ROI)
+
 - Criação de gráficos para suporte às conclusões
+- 
 
 ##  Como Executar o repositório
 1. Clone este repositório:
@@ -26,7 +30,9 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 - `notebook`
 - `READ`
 
+
 ##  Resultados
+
 - O grupo que recebeu o cupom A teve uma taxa de conversão 15% maior do que o grupo controle (p-valor < 0.05), indicando que o cupom teve efeito positivo estatisticamente significativo.
   
 - Usuários com alto ticket médio responderam melhor à promoção.
@@ -35,6 +41,7 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 
 ##  Bibliotecas e Tecnologias Utilizadas
+
 
 | Tecnologia               | Finalidade Principal                                       |
 |--------------------------|------------------------------------------------------------|
