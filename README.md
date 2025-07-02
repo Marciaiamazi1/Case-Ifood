@@ -21,7 +21,7 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 1. Clone este repositório:
  https://github.com/Marciaiamazi1/Case-Ifood.git
 
-2. Abra o arquivo case_ifood.ipynb no Jupyter ou Google Colab.
+2. Abra o arquivo case_ifood.ipynb no Jupyter ou Google Colab para visualizar as análises realizadas e explorar os resultados.
 
 
 
