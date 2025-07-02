@@ -1,6 +1,8 @@
 # Case Técnico de Data Analytics - IFood
 
-Análise de dados para avaliar o desempenho de cupons promocionais no app iFood, com base em testes A/B, segmentação de usuários e viabilidade financeira.
+O iFood, líder em delivery de alimentos na América Latina, realizou uma campanha de cupons com o intuito de incentivar novos pedidos e aumentar a retenção de clientes. Para validar a efetividade da iniciativa, foi realizado um teste A/B , em que parte dos usuários recebeu o benefício (grupo "target") e outra parte não (grupo "controle").
+
+O desafio analítico consistiu em avaliar se a campanha teve impacto significativo nas métricas de comportamento dos usuários e, a partir disso, propor recomendações personalizadas com base em segmentações comportamentais.
 
 
 ##  Objetivos
