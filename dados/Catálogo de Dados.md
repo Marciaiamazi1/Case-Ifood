@@ -1,10 +1,10 @@
-# 📚 Catálogo de Dados – Case iFood
+#  Catálogo de Dados 
 
 ---
 
-## 📦 Tabelas 
+##  Tabelas 
 
-### 1. `order.json` — 📍 [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz)
+### 1. `order.json` —  [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/order.json.gz)
 
 **Total aproximado:** 3,6 milhões de pedidos entre dezembro/2018 e janeiro/2019.
 
@@ -21,7 +21,7 @@
 
 ---
 
-### 2. `consumer.csv` — 👤 [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz)
+### 2. `consumer.csv` —  [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/consumer.csv.gz)
 
 **Total aproximado:** 806 mil usuários.
 
@@ -34,7 +34,7 @@
 
 ---
 
-### 3. `restaurant.csv` — 🍽️ [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz)
+### 3. `restaurant.csv` —  [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/restaurant.csv.gz)
 
 **Total aproximado:** 7 mil restaurantes.
 
@@ -50,7 +50,7 @@
 
 ---
 
-### 4. `ab_test_ref.csv` — 🧪 [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz)
+### 4. `ab_test_ref.csv` —  [Download](https://data-architect-test-source.s3-sa-east-1.amazonaws.com/ab_test_ref.tar.gz)
 
 **Descrição:** Indica se o usuário participou da campanha de cupons.
 
@@ -65,7 +65,7 @@ A base original continha mais de 3,6 milhões de pedidos, o que torna a execuç�
 
 As distribuições de variáveis-chave como ticket médio, taxas de retenção e frequência de pedidos por cliente foram comparadas entre as bases (original e amostrada), garantindo que os padrões estatísticos fossem preservados.
 
-✅ Essa amostra foi utilizada em todas as análises estatísticas, visualizações e segmentações.
+ Essa amostra foi utilizada em todas as análises estatísticas, visualizações e segmentações.
 
 
 
