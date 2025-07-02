@@ -13,7 +13,7 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 - Avaliação de viabilidade financeira dos cupons (ROI)
 
 - Criação de gráficos para suporte às conclusões
-- 
+  
 
 ##  Como Executar o repositório
 1. Clone este repositório:
