@@ -5,11 +5,6 @@ O iFood, líder em delivery de alimentos na América Latina, realizou uma campan
 O desafio analítico consistiu em avaliar se a campanha teve impacto significativo nas métricas de comportamento dos usuários e, a partir disso, propor recomendações personalizadas com base em segmentações comportamentais.
 
 
-##  Objetivos
-- Avaliar o impacto do cupom na retenção e no ticket médio
-- Segmentar usuários com base em comportamento de compra
-- Propor melhorias e uma nova versão do teste A/B
-
 ##  Análises realizadas
 - Análise de conversão entre grupo controle e grupo cupom (teste A/B)
 - Segmentação de usuários com base em comportamento e ticket médio
