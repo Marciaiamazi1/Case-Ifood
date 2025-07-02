@@ -14,7 +14,7 @@ Análise de dados para avaliar o desempenho de cupons promocionais no app iFood,
 - Avaliação de viabilidade financeira dos cupons (ROI)
 - Criação de gráficos para suporte às conclusões
 
-##  Como Executar
+##  Como Executar o repositório
 1. Clone este repositório:
  https://github.com/Marciaiamazi1/Case-Ifood.git
 
