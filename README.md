@@ -19,8 +19,8 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 | Etapa                             | Descrição                                                                                                    |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **1. Análise Descritiva**        | • Exploração inicial dos dados de pedidos, usuários e restaurantes, com foco em padrões de consumo e engajamento. |
-| **2. Avaliação de Impacto – Teste A/B** | • Ticket médio por usuário (com teste de hipótese)<br>• Taxa de retenção (usuários que realizaram mais de um pedido) |
+| **1. Análise Descritiva**        | • Exploração inicial dos dados de quantidade de pedidos e número de usuários por grupo, ticket médio e taxa de retenção. |
+| **2. Avaliação de Impacto – Teste A/B** | • Aumento na retenção e no ticket médio no grupo que recebeu o cupom. <br>• Campanha teve impacto real. |
 | **3. Segmentação com K-Means**   | • Frequência de pedidos<br>• Ticket médio individual por usuário |
 | **4. Interpretação Comportamental** | • Análise qualitativa dos clusters gerados, com atribuição de rótulos e perfis comportamentais para orientar decisões. |
 | **5. Recomendações Estratégicas por Perfil** |• Personalização de campanhas promocionais<br>• Aumento da eficiência dos incentivos<br>• Otimização do investimento em marketing com foco em ROI |
