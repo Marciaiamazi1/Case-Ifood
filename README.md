@@ -13,7 +13,7 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 - Avaliação de viabilidade financeira dos cupons (ROI)
 
-- Criação de gráficos para suporte às conclusões
+- Criação de gráficos 
 
 ##  Etapas 
 
@@ -31,7 +31,7 @@ Analisar o envio de cupons (grupo alvo) gerou impacto estatisticamente significa
 
 | Métrica                       | Controle   | Alvo      | Resultado Estatístico  |
 |-------------------------------|------------|-----------|------------------------|
-| **Bilhete Médio**              | R$ 76,12   | R$ 76,91  | p = 0,71 (sem impacto)  |
+| **Ticket Médio**              | R$ 76,12   | R$ 76,91  | p = 0,71 (sem impacto)  |
 | **Retenção (% 2+ Pedidos)**   | 44,1%      | 46,7%     | p = 0,22 (sem impacto)  |
 
  **Conclusão**: A campanha de cupons não gerou impacto estatisticamente relevante no período analisado.
