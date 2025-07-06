@@ -7,13 +7,42 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 
 ##  Análises realizadas
-- Análise de conversão entre grupo controle e grupo target (teste A/B)
 
-- Segmentação de usuários com base em comportamento e ticket médio
+- Análise exploratória e descritiva
 
-- Avaliação de viabilidade financeira dos cupons (ROI)
+   - Verificação da distribuição dos dados por grupo (controle vs target)
+   - Análise da taxa de retenção e ticket médio por grupo.
+  
+- Criação de KPIs
 
-- Criação de gráficos 
+  - Número total de pedidos por usuário
+  - Ticket médio (valor por pedido)
+  - Taxa de retenção (usuários com mais de 1 pedido)
+
+- Validação estatística
+
+  - Aplicação de teste t para comparar o ticket médio entre os grupos
+  - Teste de proporções para validar diferenças em retenção
+  -  Verificação de significância (p - valor < 0,05)
+   
+- Avaliação de viabilidade financeira
+
+  - Simulação do custo total da campanha de cupons
+  - Estimativa de receita adicional gerada
+  - Análise de viabilidade: retorno > custo
+
+- Segmentação de Usuários
+
+  - Por tempo de cadastro (novos vs antigos)
+  - Por frequencia de pedidos
+  - Por ticket médio (baixo, médio, alto)
+  - Por localização geográfica
+
+ - Recomendações estratégicas
+
+   - Ações específicas por perfil (novos, recorrentes, inativos)
+   - Sugestões para personaliação futura da campanha
+   - Indicação de próximos testes A/B mais focados
 
 ##  Etapas 
 
