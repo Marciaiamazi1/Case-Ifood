@@ -22,8 +22,8 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 | **1. Análise Descritiva**        | • Exploração inicial dos dados de quantidade de pedidos e número de usuários por grupo, ticket médio e taxa de retenção. |
 | **2. Avaliação de Impacto – Teste A/B** | • Aumento na retenção e no ticket médio no grupo que recebeu o cupom. <br>• Campanha teve impacto real. |
 | **3. Segmentação com K-Means**   | • Frequência de pedidos<br>• Ticket médio individual por usuário |
-| **4. Interpretação Comportamental** | • Análise qualitativa dos clusters gerados, com atribuição de rótulos e perfis comportamentais para orientar decisões. |
-| **5. Recomendações Estratégicas por Perfil** |• Personalização de campanhas promocionais<br>• Aumento da eficiência dos incentivos<br>• Otimização do investimento em marketing com foco em ROI |
+| **4. Interpretação Comportamental** | • Usuários novos respondem melhor a cupons.<br>• Usuários de regiões com menor ticket médio se engajam mais<br>•Usuários inativos raramente voltam - mesmo com cupom.<br>• Usuários frequentes usam o cupom, mas sem mudar o comportamento.
+| **5. Recomendações Estratégicas por Perfil** |• Usuários novos (recentemente cadastrados): Enviar cupons de forma automática; testar campanhas de incentivo com comunicação <br>• Usuários recorrentes: Evitar cupons genéricos; oferecer programas de pontos , cashback ou combos.<br>•Usuários inativos: Testar pesquisas de feedback, camapnhas de reativação<br>•Regiões com baixo ticket médio: Continuar campanhas com cupom emregiões de menor poder aquisitivo.; testar cupom de valor fixo (ex: R$10) em vez de percentual.<br>• Usuários com alto ticket médio: Testar cupons progressivos (ex: R$20 off acima de R$100).<br>•Criar campanhas com frete grátis ou upgrade no delivery.|
 
 ---
 ## Avaliação do Teste A/B
