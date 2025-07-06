@@ -7,7 +7,7 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 
 ##  Análises realizadas
-- Análise de conversão entre grupo controle e grupo cupom (teste A/B)
+- Análise de conversão entre grupo controle e grupo target (teste A/B)
 
 - Segmentação de usuários com base em comportamento e ticket médio
 
