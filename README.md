@@ -34,6 +34,8 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 - Segmentação de Usuários
 
+  A segmentação de usuários foi realizada com base em 3 critérios principais:
+
   - Por tempo de cadastro (novos vs antigos)
   - Por frequencia de pedidos
   - Por ticket médio (baixo, médio, alto)
