@@ -19,29 +19,72 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
   - Ticket médio (valor por pedido)
   - Taxa de retenção (usuários com mais de 1 pedido)
 
-- Validação estatística
 
-  - Aplicação de teste t para comparar o ticket médio entre os grupos
-  - Teste de proporções para validar diferenças em retenção
-  -  Verificação de significância (p - valor < 0,05)
+##  Teste A/B
+
+
+O **Teste A/B** foi realizado para comparar dois grupos de usuários:
+- **Grupo Controle**: Usuários que não receberam o cupom.
+- **Grupo Alvo**: Usuários que receberam o cupom.
+
+O objetivo foi verificar se o envio de cupons teve impacto nas métricas de **ticket médio** e **retenção** de usuários.
+
+
+1. **Divisão dos Grupos:**
+   - O grupo controle não recebeu cupons, enquanto o grupo alvo recebeu os cupons de desconto.
    
-- Avaliação de viabilidade financeira
+2. **Métricas analisadas:**
+   - **Ticket Médio**: A média do valor gasto por pedido.
+   - **Retenção**: Porcentagem de usuários que realizaram mais de 1 pedido (usuários que retornaram ao app).
+   
+3. **Objetivo**: Comparar as métricas entre os dois grupos e entender qual grupo teve **melhor desempenho**.
+
+
+##  Validação Estatística
+
+Para validar se as diferenças observadas entre os grupos eram reais e não devidas ao acaso, apliquei a  **validação estatística**.
+
+### Testes utilizados:
+
+1. **Teste t de Student**: Para comparar o **ticket médio** entre os grupos controle e target.
+2. **Teste de proporções**: Para comparar a **retenção** de usuários entre os grupos.
+
+### Significância Estatística
+
+- **Se o p-valor obtido for menor que 0,05**, significa que a diferença é **estatisticamente significativa** e que o impacto observado provavelmente **não foi por acaso**.
+- **Se o p-valor for maior que 0,05**, a diferença pode ser **devida ao acaso** e, portanto, **não é significativa**.
+
+### Resultados do Teste A/B
+
+| Métrica                       | Controle   | Alvo      | Resultado Estatístico  |
+|-------------------------------|------------|-----------|------------------------|
+| **Ticket Médio**              | R$ 76,12   | R$ 76,91  | p = 0,71 (sem impacto)  |
+| **Retenção (% 2+ Pedidos)**   | 44,1%      | 46,7%     | p = 0,22 (sem impacto)  |
+
+
+- O **p-valor** para o **ticket médio** (0,71) e para a **retenção** (0,22) foi **maior que 0,05**, o que **indica que não houve impacto estatisticamente significativo** com o envio de cupons.
+- As **diferenças observadas podem ser atribuídas ao acaso**, e, portanto, não podemos concluir que os cupons causaram mudanças significativas nas métricas analisadas.
+
+
+
+##  Viabilidade Financeira
 
   - **Definição do custo do cupom:** Custo estimado de R$10 por pedido com cupom
   - **Cálculo do custo total da campanha:** Multiplicação do custo por cupom pelo número de pedidos no grupo target
   - **Estimação do ganho adicional:** A diferença de ticket médio entre os grupos controle e target foi multiplicada pelo número de pedidos feitos pelo grupo target
   - **Comparação entre custo e ganho:** A campanha foi considerada financeiramente viável quando o ganho total foi superior ao custo da campanha
 
-- Segmentação de Usuários
+##  Segmentação de usuários
 
-  A segmentação de usuários foi realizada com base em 4 critérios principais:
+  A segmentação de usuários foi realizada com base em 3 critérios principais:
 
   - **Ticket Médio** (baixo vs alto)
   - **Frequência de Pedidos** (recorrente vs esporádico)
   - **Tempo desde o Cadastro** (novo vs antigo)
-  - Por localização geográfica
 
- - Recomendações estratégicas
+
+
+##  Recomendações estratégicas
 
    - Ações específicas por perfil (novos, recorrentes, inativos)
    - Sugestões para personaliação futura da campanha
@@ -61,52 +104,6 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 | **5. Recomendações Estratégicas por Perfil** |• Usuários novos (recentemente cadastrados): Enviar cupons de forma automática; testar campanhas de incentivo com comunicação <br>• Usuários recorrentes: Evitar cupons genéricos; oferecer programas de pontos , cashback ou combos.<br>•Usuários inativos: Testar pesquisas de feedback, camapnhas de reativação<br>•Regiões com baixo ticket médio: Continuar campanhas com cupom emregiões de menor poder aquisitivo.; testar cupom de valor fixo (ex: R$10) em vez de percentual.<br>• Usuários com alto ticket médio: Testar cupons progressivos (ex: R$20 off acima de R$100).<br>•Criar campanhas com frete grátis ou upgrade no delivery.|
 
 
-
-
-
-##  Teste A/B
-
-### Objetivo
-
-O teste A/B foi realizado para avaliar o impacto de uma campanha de **cupons** sobre a **retenção de usuários**. O objetivo foi comparar dois grupos:
-- **Grupo Controle**: Não recebeu cupons.
-- **Grupo Target**: Recebeu cupons.
-
-### Como foi realizado
-
-- **Métricas analisadas**: Retenção, ticket médio e número de pedidos.
-- **Testes estatísticos**:
-  - **Teste t** para comparar o **ticket médio** entre os grupos.
-  - **Teste de proporções**:  comparar a **retenção**.
- 
-##  Análise de Impacto
-
-O objetivo do **Teste A/B** foi analisar se o envio de cupons para o **grupo target** teve um **impacto estatisticamente significativo** em comparação ao **grupo controle**.
-
-Os resultados comparando duas métricas principais foram: **Ticket Médio** e **Taxa de Retenção** (usuários com 2 ou mais pedidos).
-
-| Métrica                       | Controle   | Target      | Resultado Estatístico  |
-|-------------------------------|------------|-----------|------------------------|
-| **Ticket Médio**               | R$ 76,12   | R$ 76,91  | p = 0,71 (sem impacto)  |
-| **Retenção (% 2+ Pedidos)**   | 44,1%      | 46,7%     | p = 0,22 (sem impacto)  |
-
-### **Interpretação dos Resultados**:
-- **Ticket Médio**: Embora o grupo **alvo** tenha mostrado um aumento no ticket médio, o **p-valor** de 0,71 indica que essa diferença não é estatisticamente significativa. Isso sugere que **o envio de cupons não teve impacto significativo no valor médio dos pedidos**.
-  
-- **Retenção (% 2+ Pedidos)**: O grupo **alvo** teve uma retenção ligeiramente maior, mas com um **p-valor** de 0,22, a diferença também não é estatisticamente significativa. Isso significa que **o envio de cupons não gerou um impacto relevante na retenção de usuários**.
-
-###
-Com base nesses resultados, **não houve evidência de impacto estatisticamente significativo** do envio de cupons nas métricas de **ticket médio** e **retenção**.
-
-
-### Resultados
-
-- O **grupo target** apresentou uma **retenção 7% maior** e um **ticket médio 5,30% superior** ao grupo controle.
-- **P-valor** < 0,05 indicou que as diferenças são **estatisticamente significativas**.
-
-
-A campanha de cupons foi eficaz para **aumentar a retenção** e o **ticket médio**.
-Recomendável escalar a campanha com ajustes de segmentação.
 
 
 
