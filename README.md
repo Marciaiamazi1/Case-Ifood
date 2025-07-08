@@ -82,7 +82,7 @@ Para avaliar a viabilidade financeira da campanha, foram realizadas as seguintes
 5. **Conclusão:**
    - Com base nas estimativas de receita e custo, a campanha foi considerada **financeiramente viável** em segmentos onde o **ganho de receita superou o custo**. Nos demais segmentos, o custo da campanha não se justificou.
 
-## 📁 Como Rodar
+## Como Rodar
 
 1. **Clonar o repositório:**  
    Para rodar este projeto, basta clonar o repositório e seguir as instruções.
