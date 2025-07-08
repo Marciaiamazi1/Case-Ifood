@@ -86,10 +86,34 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 
 ##  Recomendações estratégicas
 
-   - Ações específicas por perfil (novos, recorrentes, inativos)
-   - Sugestões para personaliação futura da campanha
-   - Indicação de próximos testes A/B mais focados
-  
+
+Com base nas análises e resultados do **Teste A/B**, **Validação Estatística** e **Avaliação de Viabilidade Financeira**, as seguintes **recomendações estratégicas** são sugeridas para otimizar as campanhas e aumentar os resultados:
+
+### 1. **Segmentação de Usuários**
+   - **Focar em usuários novos e de ticket baixo**: Como os cupons têm maior impacto em usuários novos e em regiões de menor ticket médio, seria interessante segmentar as campanhas de cupons para esses usuários, incentivando-os a realizar novos pedidos.
+   - **Evitar enviar cupons para usuários recorrentes com ticket médio alto**, pois a campanha não gerou impacto significativo para esse público. Talvez uma **estratégia de fidelização** ou **programas de recompensa** sejam mais eficazes.
+
+### 2. **Testar diferentes valores de cupons**
+   - O impacto do cupom pode ser mais eficaz se testado com **valores variáveis**, como cupons de **10%, 20%** ou **R$10**, para verificar qual valor realmente **gera mais engajamento** e **impacto na retenção**.
+   - **Testar cupons de valor fixo (ex: R$10)** em vez de percentuais pode ter um impacto mais **direto** em regiões com **ticket médio baixo**.
+
+### 3. **Explorar novos canais de ativação**
+   - A campanha de cupons pode ser mais eficaz se for promovida através de **outros canais**, como **e-mail marketing** ou **notificações push**, especialmente para usuários que não visualizaram o cupom diretamente no aplicativo.
+
+### 4. **Ajustar a frequência de envio de cupons**
+   - **Repetir os cupons mais frequentemente para usuários novos** pode ajudar a **aumentar a frequência de pedidos**, enquanto cupons enviados para **usuários recorrentes** podem ser mais espaçados.
+
+### 5. **Testar uma abordagem de "reward-based" para clientes frequentes**
+   - **Clientes frequentes** poderiam ser melhores atendidos com um sistema de **recompensas progressivas** ou **cashback**, em vez de cupons simples, para incentivar a **fidelização** a longo prazo.
+   
+### 6. **Monitoramento contínuo e novos testes A/B**
+   - Realizar **novos testes A/B** focando em **diferentes grupos de usuários** com variações nos cupons e outros incentivos.
+   - Monitorar constantemente as métricas para verificar se as mudanças propostas têm o **impacto esperado**.
+
+
+### **Implementação das Recomendações**
+- **Ações imediatas**: Focar na segmentação de cupons para **usuários novos e de ticket baixo**, e **ajustar a frequência de envio**.
+- **Testes futuros**: Avaliar diferentes tipos de cupons (percentual vs. valor fixo) e explorar outros canais de ativação.
 
 
 
