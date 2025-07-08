@@ -27,9 +27,10 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
    
 - Avaliação de viabilidade financeira
 
-  - Simulação do custo total da campanha de cupons
-  - Estimativa de receita adicional gerada
-  - Análise de viabilidade: retorno > custo
+  - **Definição do custo do cupom:** Custo estimado de R$10 por pedido com cupom
+  - **Cálculo do custo total da campanha:** Multiplicação do custo por cupom pelo número de pedidos no grupo target
+  - **Estimação do ganho adicional:** A diferença de ticket médio entre os grupos controle e target foi multiplicada pelo número de pedidos feitos pelo grupo target
+  - **Comparação entre custo e ganho:** A campanha foi considerada financeiramente viável quando o ganho total foi superior ao custo da campanha
 
 - Segmentação de Usuários
 
