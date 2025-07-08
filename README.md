@@ -46,6 +46,56 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
    - Ações específicas por perfil (novos, recorrentes, inativos)
    - Sugestões para personaliação futura da campanha
    - Indicação de próximos testes A/B mais focados
+  
+##  **Avaliação da Viabilidade Financeira da Campanha de Cupons**
+
+Para avaliar a viabilidade financeira da campanha, foram realizadas as seguintes etapas:
+
+1. **Definição do custo do cupom:**
+   - Foi estimado que o custo médio de cada cupom foi de **R$10 por pedido**. Esse valor é a base para calcular o custo total da campanha.
+
+2. **Cálculo do custo total da campanha:**
+   - O custo total foi calculado multiplicando-se o número de pedidos feitos pelo grupo que recebeu o cupom pelo custo do cupom.
+
+   ```python
+   custo_total = numero_de_pedidos * custo_por_cupom
+   ```
+
+3. **Estimação do ganho adicional (receita extra):**
+   - A diferença entre o ticket médio do grupo **target** (com cupom) e do grupo **controle** (sem cupom) foi usada para calcular o ganho por pedido.
+   - A receita total adicional foi estimada multiplicando-se o ganho por pedido pelo número total de pedidos feitos no grupo target.
+
+   ```python
+   ganho_total = (ticket_medio_target - ticket_medio_controle) * numero_de_pedidos_target
+   ```
+
+4. **Comparação entre o custo e o ganho:**
+   - A campanha foi considerada **financeiramente viável** quando o ganho total gerado pelos cupons foi superior ao custo da campanha.
+
+   ```python
+   if ganho_total > custo_total:
+       resultado = "Campanha financeiramente viável"
+   else:
+       resultado = "Campanha não foi financeiramente viável"
+   ```
+
+5. **Conclusão:**
+   - Com base nas estimativas de receita e custo, a campanha foi considerada **financeiramente viável** em segmentos onde o **ganho de receita superou o custo**. Nos demais segmentos, o custo da campanha não se justificou.
+
+## 📁 Como Rodar
+
+1. **Clonar o repositório:**  
+   Para rodar este projeto, basta clonar o repositório e seguir as instruções.
+
+2. **Instalar dependências:**  
+   O código foi desenvolvido em Python. Certifique-se de ter as dependências instaladas:
+
+   ```bash
+   pip install -r requirements.txt
+
+3. **Rodar o código:**  
+   Abra o notebook no Google Colab.
+
 
 ##  Etapas 
 
