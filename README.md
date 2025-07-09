@@ -87,7 +87,27 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
   - **Frequência de Pedidos** (recorrente vs esporádico): Aumento entre usuários com 1 ou mais pedidos
   - **Tempo desde o Cadastro** (novo vs antigo): Maior impacto em usuários novos (até 30 dias)
 
- Ações personalizadas aumentam retorno e reduzem custo por aquisição.
+
+
+
+
+
+##  Conclusão Final 
+
+A campanha de cupons  apresentou impacto positivo no comportamento dos usuários do iFood, especialmente em termos de:
+
+-  Aumento da **retenção** no grupo target em relação ao grupo controle
+-  Elevação do **ticket médio** por pedido
+-  Resultados **estatisticamente significativos** (p < 0,05)
+
+Além disso, a segmentação dos usuários revelou que:
+
+-  **Usuários novos** (com menos de 30 dias de cadastro) tiveram excelente resposta à campanha
+-  **Usuários inativos ou antigos** apresentaram pouco ou nenhum efeito
+-  **Regiões com menor ticket médio** responderam melhor aos cupons
+-  Usuários com ticket mais alto **mantiveram o mesmo comportamento**, mesmo com o cupom
+
+Com base nesses insights, a campanha **pode ser viável financeiramente e muito mais eficiente** se for personalizada para os perfis com maior propensão de resposta.
 
 
 
@@ -116,16 +136,6 @@ Com base nas análises e resultados do **Teste A/B**, **Validação Estatística
 ### 6. **Monitoramento contínuo e novos testes A/B**
    - Realizar **novos testes A/B** focando em **diferentes grupos de usuários** com variações nos cupons e outros incentivos.
    - Monitorar constantemente as métricas para verificar se as mudanças propostas têm o **impacto esperado**.
-
-
-### **Implementação**
-
-- **Ações imediatas**: Focar na segmentação de cupons para **usuários novos e de ticket baixo**, e **ajustar a frequência de envio**.
-- **Testes futuros**: Avaliar diferentes tipos de cupons (percentual vs. valor fixo) e explorar outros canais de ativação.
-
-
-
-
 
 
 
