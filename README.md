@@ -78,9 +78,11 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 
   A segmentação de usuários foi realizada com base em 3 critérios principais:
 
-  - **Ticket Médio** (baixo vs alto)
-  - **Frequência de Pedidos** (recorrente vs esporádico)
-  - **Tempo desde o Cadastro** (novo vs antigo)
+  - **Ticket Médio** (baixo vs alto): Efeito mais forte em usuários com ticket mais baixo.
+  - **Frequência de Pedidos** (recorrente vs esporádico): Aumento entre usuários com 1 ou mais pedidos
+  - **Tempo desde o Cadastro** (novo vs antigo): Maior impacto em usuários novos (até 30 dias)
+
+ Ações personalizadas aumentam retorno e reduzem custo por aquisição.
 
 
 
