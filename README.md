@@ -25,8 +25,12 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 
 O **Teste A/B** foi realizado para comparar dois grupos de usuários:
+
 - **Grupo Controle**: Usuários que não receberam o cupom.
+  
 - **Grupo Alvo**: Usuários que receberam o cupom.
+
+  
 
 O objetivo foi verificar se o envio de cupons teve impacto nas métricas de **ticket médio** e **retenção** de usuários.
 
@@ -38,6 +42,7 @@ O objetivo foi verificar se o envio de cupons teve impacto nas métricas de **ti
 3. **Métricas analisadas:**
    
    - **Ticket Médio**: A média do valor gasto por pedido.
+     
    - **Retenção**: Porcentagem de usuários que realizaram mais de 1 pedido (usuários que retornaram ao app).
    
 5. **Objetivo**: Comparar as métricas entre os dois grupos e entender qual grupo teve **melhor desempenho**.
@@ -55,6 +60,7 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 ### Significância Estatística
 
 - **Se o p-valor obtido for menor que 0,05**, significa que a diferença é **estatisticamente significativa** e que o impacto observado provavelmente **não foi por acaso**.
+  
 - **Se o p-valor for maior que 0,05**, a diferença pode ser **devida ao acaso** e, portanto, **não é significativa**.
 
 ### Resultados do Teste A/B
@@ -67,7 +73,6 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 
 
 - O **p-valor** para o **ticket médio** (0,71) e para a **retenção** (0,22) foi **maior que 0,05**, o que **indica que não houve impacto estatisticamente significativo** com o envio de cupons.
-  
 - As **diferenças observadas podem ser atribuídas ao acaso**, e, portanto, não podemos concluir que os cupons causaram mudanças significativas nas métricas analisadas.
 
 
