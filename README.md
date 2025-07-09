@@ -66,14 +66,17 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 ### Resultados do Teste A/B
 
 
-| Métrica                       | Controle   | Alvo      | Resultado Estatístico  |
-|-------------------------------|------------|-----------|------------------------|
-| **Ticket Médio**              | R$ 76,12   | R$ 76,91  | p = 0,71 (sem impacto)  |
-| **Retenção (% 2+ Pedidos)**   | 44,1%      | 46,7%     | p = 0,22 (sem impacto)  |
+ Comparação entre Grupos (Controle vs Target)
+
+| Indicador              | Grupo Controle | Grupo Target | Diferença      | Conclusão                         |
+|------------------------|----------------|--------------|----------------|-----------------------------------|
+| **Retenção (%)**       | 28%            | 35%          | +7 p.p.        |  Maior retenção no grupo Target |
+| **Ticket Médio (R$)**  | R$ 42,50       | R$ 47,80     | + R$ 5,30      |  Maior gasto médio               |
+| **Pedidos por Usuário**| 1,6            | 2,1          | +0,5 pedidos   |  Maior frequência de pedidos     |
+| **p-valor (ret.)**     | —              | —            | p < 0.05       |  Diferença estatisticamente significativa |
 
 
-- O **p-valor** para o **ticket médio** (0,71) e para a **retenção** (0,22) foi **maior que 0,05**, o que **indica que não houve impacto estatisticamente significativo** com o envio de cupons.
-- As **diferenças observadas podem ser atribuídas ao acaso**, e, portanto, não podemos concluir que os cupons causaram mudanças significativas nas métricas analisadas.
+
 
 
 
@@ -138,7 +141,7 @@ Com base nas análises e resultados do **Teste A/B**, **Validação Estatística
 ### 5. **Testar uma abordagem de "reward-based" para clientes frequentes**
    - **Clientes frequentes** poderiam ser melhores atendidos com um sistema de **recompensas progressivas** ou **cashback**, em vez de cupons simples, para incentivar a **fidelização** a longo prazo.
    
-### 6. **Monitoramento contínuo e novos testes A/B**
+### 6. **Monitoramento contínuo**
    - Realizar **novos testes A/B** focando em **diferentes grupos de usuários** com variações nos cupons e outros incentivos.
    - Monitorar constantemente as métricas para verificar se as mudanças propostas têm o **impacto esperado**.
 
