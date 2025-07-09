@@ -102,7 +102,7 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 A campanha de cupons  apresentou impacto positivo no comportamento dos usuários do iFood, especialmente em termos de:
 
 -  Aumento da **retenção** no grupo target em relação ao grupo controle
--  Elevação do **ticket médio** por pedido
+-  Elevação do **ticket médio** por pedido no grupo Target
 -  Resultados **estatisticamente significativos** (p < 0,05)
 
 Além disso, a segmentação dos usuários revelou que:
