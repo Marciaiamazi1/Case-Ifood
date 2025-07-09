@@ -75,6 +75,11 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 | **Pedidos por Usuário**| 1,6            | 2,1          | +0,5 pedidos   |  Maior frequência de pedidos     |
 | **p-valor (ret.)**     | —              | —            | p < 0.05       |  Diferença estatisticamente significativa |
 
+### 
+- **Retenção**: A diferença de 7 p.p. indica que o incentivo do cupom aumentou o número de usuários que fizeram pedidos repetidos.
+- **Ticket Médio**: O aumento no ticket médio sugere que o cupom pode ter estimulado os usuários a adicionar itens extras, apesar de o desconto reduzir parcialmente o custo.
+- **Pedidos por Usuário**: Uma elevação na frequência de pedidos confirma que o cupom ajudou a fidelizar os clientes.
+- **Teste Estatístico**: Com p < 0.05, temos alta confiança de que as diferenças não ocorreram por acaso, reforçando a eficácia da campanha.
 
 
 
