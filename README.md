@@ -8,6 +8,7 @@ O desafio analítico consistiu em avaliar se a campanha teve impacto significati
 
 ##  Análises realizadas
 
+
 - Análise exploratória e descritiva
 
    - Verificação da distribuição dos dados por grupo (controle vs target)
@@ -31,13 +32,15 @@ O objetivo foi verificar se o envio de cupons teve impacto nas métricas de **ti
 
 
 1. **Divisão dos Grupos:**
-   - O grupo controle não recebeu cupons, enquanto o grupo alvo recebeu os cupons de desconto.
    
-2. **Métricas analisadas:**
+   - O grupo controle não recebeu cupons, enquanto o grupo target recebeu os cupons de desconto.
+   
+3. **Métricas analisadas:**
+   
    - **Ticket Médio**: A média do valor gasto por pedido.
    - **Retenção**: Porcentagem de usuários que realizaram mais de 1 pedido (usuários que retornaram ao app).
    
-3. **Objetivo**: Comparar as métricas entre os dois grupos e entender qual grupo teve **melhor desempenho**.
+5. **Objetivo**: Comparar as métricas entre os dois grupos e entender qual grupo teve **melhor desempenho**.
 
 
 ##  Validação Estatística
@@ -56,6 +59,7 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 
 ### Resultados do Teste A/B
 
+
 | Métrica                       | Controle   | Alvo      | Resultado Estatístico  |
 |-------------------------------|------------|-----------|------------------------|
 | **Ticket Médio**              | R$ 76,12   | R$ 76,91  | p = 0,71 (sem impacto)  |
@@ -63,6 +67,7 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 
 
 - O **p-valor** para o **ticket médio** (0,71) e para a **retenção** (0,22) foi **maior que 0,05**, o que **indica que não houve impacto estatisticamente significativo** com o envio de cupons.
+  
 - As **diferenças observadas podem ser atribuídas ao acaso**, e, portanto, não podemos concluir que os cupons causaram mudanças significativas nas métricas analisadas.
 
 
@@ -113,27 +118,21 @@ Com base nas análises e resultados do **Teste A/B**, **Validação Estatística
    - Monitorar constantemente as métricas para verificar se as mudanças propostas têm o **impacto esperado**.
 
 
-### **Implementação das Recomendações**
+### **Implementação**
+
 - **Ações imediatas**: Focar na segmentação de cupons para **usuários novos e de ticket baixo**, e **ajustar a frequência de envio**.
 - **Testes futuros**: Avaliar diferentes tipos de cupons (percentual vs. valor fixo) e explorar outros canais de ativação.
 
 
 
-##  Conclusão
 
-| Etapa                             | Descrição                                                                                                    |
-|----------------------------------|----------------------------------------------------------------------------------------------------------------|
-| **1. Análise Descritiva**        | • Exploração inicial dos dados de quantidade de pedidos e número de usuários por grupo, ticket médio e taxa de retenção. |
-| **2. Avaliação de Impacto – Teste A/B** | • Aumento na retenção e no ticket médio no grupo que recebeu o cupom. <br>• Campanha teve impacto real. |
-| **3. Segmentação com K-Means**   | • Frequência de pedidos<br>• Ticket médio individual por usuário |
-| **4. Interpretação Comportamental** | • Usuários novos respondem melhor a cupons.<br>• Usuários de regiões com menor ticket médio se engajam mais<br>•Usuários inativos raramente voltam - mesmo com cupom.<br>• Usuários frequentes usam o cupom, mas sem mudar o comportamento.
-| **5. Recomendações Estratégicas por Perfil** |• Usuários novos (recentemente cadastrados): Enviar cupons de forma automática; testar campanhas de incentivo com comunicação <br>• Usuários recorrentes: Evitar cupons genéricos; oferecer programas de pontos , cashback ou combos.<br>•Usuários inativos: Testar pesquisas de feedback, camapnhas de reativação<br>•Regiões com baixo ticket médio: Continuar campanhas com cupom emregiões de menor poder aquisitivo.; testar cupom de valor fixo (ex: R$10) em vez de percentual.<br>• Usuários com alto ticket médio: Testar cupons progressivos (ex: R$20 off acima de R$100).<br>•Criar campanhas com frete grátis ou upgrade no delivery.|
 
 
 
 
 
 ##  Como Executar o repositório
+
 1. Clone este repositório:
  https://github.com/Marciaiamazi1/Case-Ifood.git
 
