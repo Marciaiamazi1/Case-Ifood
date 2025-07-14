@@ -96,9 +96,9 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 
   A segmentação de usuários foi realizada com base em 3 critérios principais:
 
-  - **Ticket Médio** (baixo vs alto): Maior efeito em usuários com ticket mais baixo.
-  - **Frequência de Pedidos** (recorrente vs esporádico): Aumento entre usuários com 1 ou mais pedidos
-  - **Tempo desde o Cadastro** (novo vs antigo): Maior impacto em usuários novos (até 30 dias)
+  - **Ticket Médio** (baixo vs alto): Ticket médio alto tende a gerar receita adicional maior, mas somente é viável se ultrapassar R$10.
+  - **Frequência de Pedidos** (recorrente vs esporádico): Recorrente á a segmentação mais eficaz e financeiramente viável.
+  - **Tempo desde o Cadastro** (novo vs antigo): Nenhum desses grupos tiveram ROI positivo.
 
 
 
@@ -110,17 +110,8 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 A campanha de cupons  apresentou impacto positivo no comportamento dos usuários do iFood, especialmente em termos de:
 
 -  Aumento da **retenção** no grupo target em relação ao grupo controle
--  Elevação do **ticket médio** por pedido no grupo Target
--  Resultados **estatisticamente significativos** (p < 0,05)
-
-Além disso, a segmentação dos usuários revelou que:
-
--  **Usuários novos** (com menos de 30 dias de cadastro) tiveram excelente resposta à campanha
--  **Usuários inativos ou antigos** apresentaram pouco ou nenhum efeito
--  **Regiões com menor ticket médio** responderam melhor aos cupons
--  Usuários com ticket mais alto **mantiveram o mesmo comportamento**, mesmo com o cupom
-
-Com base nesses insights, a campanha **pode ser viável financeiramente e muito mais eficiente** se for personalizada para os perfis com maior propensão de resposta.
+-  Usuários frequentes apresentaram uma receita adicional de R$11,90. Mais eficaz e financeiramente viável.
+Com base nesses insights, a campanha **pode ser viável financeiramente e mais eficiente** se for personalizada para os perfis com maior propensão de resposta.
 
 
 
@@ -130,24 +121,15 @@ Com base nesses insights, a campanha **pode ser viável financeiramente e muito 
 Com base nas análises e resultados do **Teste A/B**, **Validação Estatística** e **Avaliação de Viabilidade Financeira**, as seguintes **recomendações estratégicas** são sugeridas para otimizar as campanhas e aumentar os resultados:
 
 ### 1. **Segmentação de Usuários**
-   - **Focar em usuários novos e de ticket baixo**: Como os cupons têm maior impacto em usuários novos e em regiões de menor ticket médio, seria interessante segmentar as campanhas de cupons para esses usuários, incentivando-os a realizar novos pedidos.
-   - **Evitar enviar cupons para usuários recorrentes com ticket médio alto**, pois a campanha não gerou impacto significativo para esse público. Talvez uma **estratégia de fidelização** ou **programas de recompensa** sejam mais eficazes.
+   - **Focar em usuários com frequência alta**: Como os cupons têm maior impacto em usuários com frequência de pedidos, é recomendável segmentar as campanhas de cupons para esse público, incentivando-os a realizar novos pedidos.
 
 ### 2. **Testar diferentes valores de cupons**
    - O impacto do cupom pode ser mais eficaz se testado com **valores variáveis**, como cupons de **10%, 20%** ou **R$10**, para verificar qual valor realmente **gera mais engajamento** e **impacto na retenção**.
-   - **Testar cupons de valor fixo (ex: R$10)** em vez de percentuais pode ter um impacto mais **direto** em regiões com **ticket médio baixo**.
 
 ### 3. **Explorar novos canais de ativação**
    - A campanha de cupons pode ser mais eficaz se for promovida através de **outros canais**, como **e-mail marketing** ou **notificações push**, especialmente para usuários que não visualizaram o cupom diretamente no aplicativo.
 
-### 4. **Ajustar a frequência de envio de cupons**
-   - **Repetir os cupons mais frequentemente para usuários novos** pode ajudar a **aumentar a frequência de pedidos**, enquanto cupons enviados para **usuários recorrentes** podem ser mais espaçados.
-
-### 5. **Testar uma abordagem de "reward-based" para clientes frequentes**
-   - **Clientes frequentes** poderiam ser melhores atendidos com um sistema de **recompensas progressivas** ou **cashback**, em vez de cupons simples, para incentivar a **fidelização** a longo prazo.
-   
-### 6. **Monitoramento contínuo**
-   - Realizar **novos testes A/B** focando em **diferentes grupos de usuários** com variações nos cupons e outros incentivos.
+### 5. **Monitoramento contínuo**
    - Monitorar constantemente as métricas para verificar se as mudanças propostas têm o **impacto esperado**.
 
 
