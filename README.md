@@ -98,7 +98,7 @@ Para validar se as diferenças observadas entre os grupos eram reais e não devi
 
   - **Ticket Médio** (baixo vs alto): Ticket médio alto tende a gerar receita adicional maior, mas somente é viável se ultrapassar R$10.
   - **Frequência de Pedidos** (recorrente vs esporádico): Recorrente á a segmentação mais eficaz e financeiramente viável.
-  - **Tempo desde o Cadastro** (novo vs antigo): Nenhum desses grupos tiveram ROI positivo.
+  - **Tempo desde o cadastro** (novo vs antigo): Nenhum desses grupos obtiveram ROI positivo.
 
 
 
